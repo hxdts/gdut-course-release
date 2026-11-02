@@ -1,10 +1,10 @@
 {
-  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v24.apk",
-  "versionCode": 25,
-  "notes": "1. 移除文字自适应功能 2. 文字描边改为可开关 3. 描边颜色可选（22 色）4. 描边粗细：自动/细/中/粗 5. 修复排版结构",
-  "versionName": "3.4",
+  "versionCode": 26,
+  "notes": "修复描边糊字：改用 -webkit-text-stroke + paint-order，描边宽度从 1.4px 降到 0.45~1.2px，文字本身不再被吃掉",
+  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v25.apk",
+  "versionName": "3.5",
   "urlMirror": [
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v24.apk",
-    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v24.apk"
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v25.apk",
+    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v25.apk"
   ]
 }
