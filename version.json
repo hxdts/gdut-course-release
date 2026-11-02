@@ -1,10 +1,10 @@
 {
-  "notes": "1. 点击顶部「第 N 周」可直接选择任意教学周\n2. 保留左右箭头微调",
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v10.apk",
-  "versionName": "1.8",
-  "versionCode": 9,
+  "versionCode": 10,
   "urlMirror": [
-    "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v10.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v10.apk"
-  ]
+    "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v11.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v11.apk"
+  ],
+  "versionName": "1.9",
+  "notes": "1. 检查更新改为多源校验（GitHub API + ghproxy + jsDelivr），取最高版本，避免单个源缓存导致「以为已是最新」\n2. 点击「第 N 周」可直接选任意教学周",
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v11.apk"
 }
