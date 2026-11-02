@@ -1,10 +1,10 @@
 {
-  "versionCode": 26,
-  "notes": "修复描边糊字：改用 -webkit-text-stroke + paint-order，描边宽度从 1.4px 降到 0.45~1.2px，文字本身不再被吃掉",
-  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v25.apk",
-  "versionName": "3.5",
   "urlMirror": [
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v25.apk",
-    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v25.apk"
-  ]
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v26.apk",
+    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v26.apk"
+  ],
+  "versionCode": 27,
+  "notes": "1. 顶部「第 N 周」现在跟随「星期」颜色设置 2. 课程文字字号 9.5→10px，增加 0.25px 字间距",
+  "versionName": "3.6",
+  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v26.apk"
 }
