@@ -1,10 +1,10 @@
 {
-  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v15.apk",
-  "versionCode": 14,
+  "versionCode": 15,
   "urlMirror": [
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v15.apk",
-    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v15.apk"
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v16.apk",
+    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v16.apk"
   ],
-  "notes": "新增：1. 设置壁纸（从相册选图，比例不匹配处自动用同一张图的模糊版填充）2. 主题色切换（7 种颜色，顶栏和按钮一起变）",
-  "versionName": "2.3"
+  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v16.apk",
+  "notes": "1. 主题色增加到 12 种（新增血红/玫红/酒红/墨绿/金）2. 新增课程配色方案：默认/柔和/暖阳/清新/单色 3. 修复换壁纸不生效（文件名相同被 WebView 缓存）",
+  "versionName": "2.4"
 }
