@@ -1,10 +1,10 @@
 {
-  "versionName": "2.0",
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v12.apk",
-  "notes": "1. 修复点刷新没反应（正在刷新时再点会提示「正在刷新中」）\n2. 刷新时按钮旋转 + 遮罩文字 + 顶部显示「正在刷新数据…」三重反馈\n3. 加 60 秒看门狗，不会再出现按钮永久失灵\n4. 多源检查更新",
-  "versionCode": 11,
   "urlMirror": [
-    "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v12.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v12.apk"
-  ]
+    "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v13.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v13.apk"
+  ],
+  "notes": "1. 点击刷新按钮的瞬间就出反馈（按钮变亮旋转 + 遮罩文字 + 顶部状态），不再等网络\n2. 重复点击会提示「正在刷新中」",
+  "versionCode": 12,
+  "versionName": "2.1",
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v13.apk"
 }
