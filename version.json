@@ -1,10 +1,10 @@
 {
-  "versionName": "3.0",
-  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v22.apk",
-  "versionCode": 21,
+  "versionCode": 23,
   "urlMirror": [
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v22.apk",
-    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v22.apk"
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v23.apk",
+    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v23.apk"
   ],
-  "notes": "1. 文字颜色改为课表四类：星期/日期/节数/课程文字，各自独立设置 2. 课程透明度语义修正（0%=完全不透明）3. 文字自适应改为连续灰阶：按壁纸亮度在黑→深灰→中灰→浅灰→白之间平滑过渡 4. 有壁纸时卡片更实，减少背景文字干扰"
+  "notes": "1. 文字颜色可选 22 种（含完整灰阶）2. 课程透明度上限改为 100% 3. 自适应改用中位数亮度，阈值下调，灰白背景会用黑字 4. 自适应结果自动同步到自定义色块，可继续微调 5. 课表文字加描边（浅字描黑边/深字描白边），任何背景都看得清",
+  "versionName": "3.2",
+  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v23.apk"
 }
