@@ -1,10 +1,10 @@
 {
-  "versionName": "2.2",
-  "versionCode": 13,
-  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v14.apk",
-  "notes": "修复刷新按钮点了没反应：顶栏右上角有个装饰性半透明圆盖住了按钮，真人点击被拦截（之前测试用代码触发所以没发现）。现在装饰层不再拦截点击。",
+  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v15.apk",
+  "versionCode": 14,
   "urlMirror": [
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v14.apk",
-    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v14.apk"
-  ]
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v15.apk",
+    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v15.apk"
+  ],
+  "notes": "新增：1. 设置壁纸（从相册选图，比例不匹配处自动用同一张图的模糊版填充）2. 主题色切换（7 种颜色，顶栏和按钮一起变）",
+  "versionName": "2.3"
 }
