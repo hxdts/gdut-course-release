@@ -1,10 +1,10 @@
 {
-  "versionCode": 15,
+  "notes": "1. 新增课程透明度调节 2. 文字自适应壁纸（按壁纸明暗自动切换深浅）+ 开关 + 自定义文字颜色（正文/次要/标题分开设）3. 我的页面重排为 外观-更新-账号-数据 4. 删掉已捕获数据和其他卡片，退出登录移到账号下",
+  "versionName": "2.5",
+  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v17.apk",
   "urlMirror": [
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v16.apk",
-    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v16.apk"
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v17.apk",
+    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v17.apk"
   ],
-  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v16.apk",
-  "notes": "1. 主题色增加到 12 种（新增血红/玫红/酒红/墨绿/金）2. 新增课程配色方案：默认/柔和/暖阳/清新/单色 3. 修复换壁纸不生效（文件名相同被 WebView 缓存）",
-  "versionName": "2.4"
+  "versionCode": 16
 }
