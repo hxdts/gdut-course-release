@@ -1,11 +1,10 @@
 {
+  "notes": "1. 修复课表抓取失败\n2. 自动进入课表菜单\n3. 新增用户协议与隐私说明\n4. 支持应用内更新",
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v3.apk",
   "versionName": "1.2",
   "urlMirror": [
-    "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course.apk?v=3",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
-    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course.apk?v=3"
+    "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v3.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v3.apk"
   ],
-  "versionCode": 3,
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course.apk?v=3",
-  "notes": "1. 修复课表抓取失败\n2. 自动进入课表菜单\n3. 新增用户协议与隐私说明\n4. 支持应用内更新"
+  "versionCode": 3
 }
