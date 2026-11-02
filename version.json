@@ -1,10 +1,10 @@
 {
-  "notes": "1. 新增课程透明度调节 2. 文字自适应壁纸（按壁纸明暗自动切换深浅）+ 开关 + 自定义文字颜色（正文/次要/标题分开设）3. 我的页面重排为 外观-更新-账号-数据 4. 删掉已捕获数据和其他卡片，退出登录移到账号下",
-  "versionName": "2.5",
-  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v17.apk",
+  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v18.apk",
+  "notes": "1. 课表可左右滑动（每列 52px，窄屏横向滚动）2. 切周有滑动动画 3. 课表本地缓存，刷新失败自动用缓存并提示 4. 刷新失败不再清空已显示内容 5. 去掉切周/刷新的白色遮罩闪烁",
   "urlMirror": [
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v17.apk",
-    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v17.apk"
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v18.apk",
+    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v18.apk"
   ],
-  "versionCode": 16
+  "versionName": "2.6",
+  "versionCode": 17
 }
