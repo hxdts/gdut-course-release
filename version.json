@@ -1,10 +1,10 @@
 {
-  "versionName": "2.8",
-  "versionCode": 19,
-  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v20.apk",
+  "versionName": "2.9",
+  "notes": "1. 底部导航栏固定在屏幕最下方，不用再滚到底才能点到 2. 底部栏改为上方圆角 + 毛玻璃浮起效果 3. 内容区自动留出底部空间",
+  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v21.apk",
+  "versionCode": 20,
   "urlMirror": [
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v20.apk",
-    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v20.apk"
-  ],
-  "notes": "1. 所有弹窗改为自定义圆润样式（28px 圆角）2. 去掉系统对话框的「网址为：…」标题 3. 登录过期、设置更新源等提示也统一了"
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v21.apk",
+    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v21.apk"
+  ]
 }
