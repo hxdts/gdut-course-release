@@ -1,10 +1,10 @@
 {
+  "versionCode": 6,
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v7.apk",
+  "versionName": "1.5",
   "urlMirror": [
-    "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v6.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v6.apk"
+    "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v7.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v7.apk"
   ],
-  "notes": "终于修好课表了！不再靠解析网页，而是直接调用教务系统课表接口（xsgrkbcx!getKbRq.action），能拿到每周真实课程。左右箭头可切换周次。",
-  "versionName": "1.4",
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v6.apk",
-  "versionCode": 5
+  "notes": "1. 课表上方显示每天日期（今天高亮）\n2. 点击课程弹出详情：具体上课时间、地点、教师、周次、教学班、学时\n3. 左右箭头切换教学周"
 }
