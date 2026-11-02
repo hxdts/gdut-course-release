@@ -1,10 +1,10 @@
 {
-  "notes": "1. 新增体测成绩页\n2. 刷新时按钮会旋转、顶部显示更新时间\n3. 登录过期会提示并引导重新登录\n4. 四六级改走「考级成绩」真实接口",
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v9.apk",
+  "versionCode": 8,
   "urlMirror": [
-    "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v8.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v8.apk"
+    "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v9.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v9.apk"
   ],
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v8.apk",
-  "versionCode": 7,
-  "versionName": "1.6"
+  "notes": "1. 每次启动自动检查更新（有新版本才提示）\n2. 加载/检测/下载都会显示文字，不再只是一个转圈",
+  "versionName": "1.7"
 }
