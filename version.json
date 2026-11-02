@@ -1,10 +1,10 @@
 {
-  "versionCode": 6,
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v7.apk",
-  "versionName": "1.5",
+  "notes": "1. 新增体测成绩页\n2. 刷新时按钮会旋转、顶部显示更新时间\n3. 登录过期会提示并引导重新登录\n4. 四六级改走「考级成绩」真实接口",
   "urlMirror": [
-    "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v7.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v7.apk"
+    "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v8.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v8.apk"
   ],
-  "notes": "1. 课表上方显示每天日期（今天高亮）\n2. 点击课程弹出详情：具体上课时间、地点、教师、周次、教学班、学时\n3. 左右箭头切换教学周"
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v8.apk",
+  "versionCode": 7,
+  "versionName": "1.6"
 }
