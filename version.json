@@ -1,10 +1,10 @@
 {
-  "versionName": "2.7",
-  "versionCode": 18,
-  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v19.apk",
+  "versionName": "2.8",
+  "versionCode": 19,
+  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v20.apk",
   "urlMirror": [
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v19.apk",
-    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v19.apk"
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v20.apk",
+    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v20.apk"
   ],
-  "notes": "1. 打开软件立即检测更新（原来要等 6 秒且登录后才查）2. 发现新版本改为自定义弹窗（显示版本号和更新说明）3. 登录页也会检测"
+  "notes": "1. 所有弹窗改为自定义圆润样式（28px 圆角）2. 去掉系统对话框的「网址为：…」标题 3. 登录过期、设置更新源等提示也统一了"
 }
