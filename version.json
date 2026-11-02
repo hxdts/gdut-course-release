@@ -1,0 +1,6 @@
+{
+  "url": "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course.apk",
+  "notes": "1. 修复课表抓取失败（隐藏 WebView 不执行 JS）\n2. 自动进入课表菜单\n3. 新增用户协议与隐私说明\n4. 支持应用内更新",
+  "versionCode": 3,
+  "versionName": "1.2"
+}
