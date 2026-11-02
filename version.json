@@ -1,10 +1,10 @@
 {
-  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v18.apk",
-  "notes": "1. 课表可左右滑动（每列 52px，窄屏横向滚动）2. 切周有滑动动画 3. 课表本地缓存，刷新失败自动用缓存并提示 4. 刷新失败不再清空已显示内容 5. 去掉切周/刷新的白色遮罩闪烁",
+  "versionName": "2.7",
+  "versionCode": 18,
+  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v19.apk",
   "urlMirror": [
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v18.apk",
-    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v18.apk"
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v19.apk",
+    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v19.apk"
   ],
-  "versionName": "2.6",
-  "versionCode": 17
+  "notes": "1. 打开软件立即检测更新（原来要等 6 秒且登录后才查）2. 发现新版本改为自定义弹窗（显示版本号和更新说明）3. 登录页也会检测"
 }
