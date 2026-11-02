@@ -1,10 +1,10 @@
 {
-  "versionCode": 23,
+  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v24.apk",
+  "versionCode": 25,
+  "notes": "1. 移除文字自适应功能 2. 文字描边改为可开关 3. 描边颜色可选（22 色）4. 描边粗细：自动/细/中/粗 5. 修复排版结构",
+  "versionName": "3.4",
   "urlMirror": [
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v23.apk",
-    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v23.apk"
-  ],
-  "notes": "1. 文字颜色可选 22 种（含完整灰阶）2. 课程透明度上限改为 100% 3. 自适应改用中位数亮度，阈值下调，灰白背景会用黑字 4. 自适应结果自动同步到自定义色块，可继续微调 5. 课表文字加描边（浅字描黑边/深字描白边），任何背景都看得清",
-  "versionName": "3.2",
-  "url": "https://testingcf.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v23.apk"
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v24.apk",
+    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v24.apk"
+  ]
 }
