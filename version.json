@@ -1,10 +1,10 @@
 {
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/e31e663c2c9ef5268f58bb4eaa314245868a71fd/gdut-course.apk",
+  "versionCode": 65,
+  "versionName": "7.4",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/ded6d006b8fa92ef80595d5093d1a3490e94b970/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/ded6d006b8fa92ef80595d5093d1a3490e94b970/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/e31e663c2c9ef5268f58bb4eaa314245868a71fd/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/e31e663c2c9ef5268f58bb4eaa314245868a71fd/gdut-course.apk"
   ],
-  "versionCode": 64,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/ded6d006b8fa92ef80595d5093d1a3490e94b970/gdut-course.apk",
-  "notes": "1. 修复「记住密码」点不动：勾选状态的 on 类之前加在了方块上，而样式只认整行（.agree-row.on），所以点了没有任何视觉变化。现在改为切换整行。2. 课表三页之间加间距，上一页周日和下一页周一不再贴在一起",
-  "versionName": "7.3"
+  "notes": "1. 主动退出登录后不再自动登录（并清掉记住的账号密码）2. 课表改回一屏显示周一到周五 5 天，左右滑动看周六周日——同一张课表，不再是分开的两页 3. 如果今天是周末，课表会自动滚到右边直接显示周六日"
 }
