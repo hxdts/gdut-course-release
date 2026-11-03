@@ -3,8 +3,8 @@
     "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
     "https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk"
   ],
-  "versionName": "5.3",
-  "versionCode": 44,
   "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
-  "notes": "1. 删除页面顶部的蓝色标题栏，课表直接从顶部显示 2. 刷新按钮改为右下角悬浮圆钮 3. 删除全局「字体大小」，只保留课表五类文字的独立字号 4. 缓存进度/离线状态改显示在周次条右侧"
+  "versionCode": 45,
+  "notes": "1. 恢复顶部蓝色标题栏，并彻底封住顶部（去掉 body 默认 8px 边距）2. 删除「从手机文件更新」入口 3. 壁纸新增旋转、左右镜像、上下镜像、按屏幕比例裁剪",
+  "versionName": "5.4"
 }
