@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/39db08461be7957bca960d76c9971ec7ff0523eb/gdut-course.apk",
-  "versionName": "9.4",
-  "notes": "1. 换页闪烁的真正原因已修复：换页时除了翻页位移，还叠加了旧版淡入动画（透明度 0.35→1），两层动画抢位移导致闪一下，现已停用淡入动画 2. 换页阈值 32% → 28%",
-  "versionCode": 85,
+  "versionName": "9.5",
+  "notes": "换页阈值 28% → 22%（约 123px 就换页），换页动画 1000ms → 800ms",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/39db08461be7957bca960d76c9971ec7ff0523eb/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/39db08461be7957bca960d76c9971ec7ff0523eb/gdut-course.apk"
-  ]
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/bb34ca993805e9b4981792fabde2c9da7d9472fa/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/bb34ca993805e9b4981792fabde2c9da7d9472fa/gdut-course.apk"
+  ],
+  "versionCode": 86,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/bb34ca993805e9b4981792fabde2c9da7d9472fa/gdut-course.apk"
 }
