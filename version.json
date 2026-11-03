@@ -1,10 +1,10 @@
 {
-  "versionCode": 109,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/bd93a857d7f3b7557607ad9e8e8989f1a3d535c7/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/bd93a857d7f3b7557607ad9e8e8989f1a3d535c7/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/5e41d9cb40eb05012b83bbe5769450e7726844ab/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/5e41d9cb40eb05012b83bbe5769450e7726844ab/gdut-course.apk"
   ],
-  "notes": "1. 修复「某一周只有体育」：整学期预缓存函数此前从未被调用（漏了触发），现在拉到课表后会自动后台补齐整个学期 2. 缓存写入加保护：拿到空数据不会覆盖已有的完整缓存 3. 点刷新会强制重拉全部周，修掉历史残缺缓存 4. 壁纸/记住密码设置完立即备份到原生，不再等轮询，更新后不丢",
-  "versionName": "11.8",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/bd93a857d7f3b7557607ad9e8e8989f1a3d535c7/gdut-course.apk"
+  "versionCode": 110,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/5e41d9cb40eb05012b83bbe5769450e7726844ab/gdut-course.apk",
+  "notes": "新增手势诊断浮层：进入「我的」连点版本号 6 次开启，滑动时屏幕左下角会实时显示事件计数、位移、行为判定和周次。用来定位「连续滑动不生效」到底是手势事件没收到、还是判定没通过",
+  "versionName": "11.9"
 }
