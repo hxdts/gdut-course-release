@@ -1,10 +1,10 @@
 {
-  "versionName": "4.5",
-  "notes": "1. 联网刷新后自动把整个学期每一周都缓存下来，断网可看任意一周（顶部会显示缓存进度）2. 透明度默认改为 10% 3. 透明度滑块加大手柄和触摸区，减少误触",
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v35.apk",
-  "versionCode": 36,
+  "notes": "1. 整学期课表预缓存改为仅在 WiFi 下进行，不消耗移动数据 2. 移动数据下仍可正常刷新和切换周次（只是不预缓存其他周）",
   "urlMirror": [
-    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v35.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v35.apk"
-  ]
+    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v36.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v36.apk"
+  ],
+  "versionName": "4.6",
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v36.apk",
+  "versionCode": 37
 }
