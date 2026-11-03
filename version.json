@@ -1,10 +1,10 @@
 {
+  "versionName": "8.7",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/973c2653ed3a7827b36fcced472a731864756f6b/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/973c2653ed3a7827b36fcced472a731864756f6b/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/3069a7304811e7fab707e8a04e156a1ff243cbde/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/3069a7304811e7fab707e8a04e156a1ff243cbde/gdut-course.apk"
   ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/973c2653ed3a7827b36fcced472a731864756f6b/gdut-course.apk",
-  "notes": "1. 课程格子高度从 54px 缩到 47px，整体更紧凑 2. 一屏 5 天时右侧多留 30px 空白，周五不再贴屏幕边缘",
-  "versionName": "8.6",
-  "versionCode": 77
+  "notes": "换页动画从 950ms 放到 1700ms，观感明显变慢",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/3069a7304811e7fab707e8a04e156a1ff243cbde/gdut-course.apk",
+  "versionCode": 78
 }
