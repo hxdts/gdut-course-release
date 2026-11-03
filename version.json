@@ -1,10 +1,10 @@
 {
-  "notes": "1. 课表恢复成周一到周日 7 列一页显示（不再把周六日单开一页）2. 横向滑动切换周次：跟手位移 + 渐隐，滑过一半松手就换周，没过半自动回退 3. 第一周/最后一周滑动有阻尼，不会滑过头 4. 顶部刷新图标改为不闭合圆弧",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/948f2d9464eb626a9a160e34a6bc9e0e0ee03b48/gdut-course.apk",
-  "versionName": "6.5",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/948f2d9464eb626a9a160e34a6bc9e0e0ee03b48/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/948f2d9464eb626a9a160e34a6bc9e0e0ee03b48/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/22c0f79c38cd11592032c5e5b01e0ad801a04a47/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/22c0f79c38cd11592032c5e5b01e0ad801a04a47/gdut-course.apk"
   ],
-  "versionCode": 56
+  "versionCode": 57,
+  "notes": "滑动切周的判定阈值从屏幕一半（50%）降到 30%（最少 56px），稍微一滑就能换周，没过阈值仍然回弹",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/22c0f79c38cd11592032c5e5b01e0ad801a04a47/gdut-course.apk",
+  "versionName": "6.6"
 }
