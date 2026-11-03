@@ -1,10 +1,10 @@
 {
-  "notes": "重要修复：上一版改课表分页时删掉了代码里一个右括号，导致整个脚本语法错误、一行 JS 都没执行（表现就是勾选框点不动、登录没反应、什么都不能点）。本版已修复并实测两个勾选框正常、登录按钮可用",
-  "versionCode": 61,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/95a7f8e688b97141e29c20b9488efa46705a3f08/gdut-course.apk",
-  "versionName": "7.0",
+  "notes": "登录页两个勾选框（同意协议 / 记住密码）改为页面级委托绑定，不依赖启动时序，实测点击可正常切换状态",
+  "versionName": "7.1",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/95a7f8e688b97141e29c20b9488efa46705a3f08/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/95a7f8e688b97141e29c20b9488efa46705a3f08/gdut-course.apk"
-  ]
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/f925be95c109373405f963786b181337f4f850c3/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/f925be95c109373405f963786b181337f4f850c3/gdut-course.apk"
+  ],
+  "versionCode": 62,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/f925be95c109373405f963786b181337f4f850c3/gdut-course.apk"
 }
