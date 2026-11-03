@@ -1,8 +1,8 @@
 {
-  "versionName": "5.0",
+  "versionCode": 42,
+  "notes": "1. 新增「课表文字字号」：周次/星期/日期/节数/课程 五类各自独立调节（70%~160%）2. 保留全局字体大小缩放（80%~140%）3. 去掉课表顶部「共几节课」",
+  "versionName": "5.1",
   "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
-  "notes": "1. 新增字体大小调节（80%~140%，全界面生效）2. 去掉课表顶部的「共几节课」数字 3. 修复已有会话时登录报 HTTP 302",
-  "versionCode": 41,
   "urlMirror": [
     "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
     "https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk"
