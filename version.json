@@ -1,10 +1,10 @@
 {
-  "notes": "1. 回弹改为自己写的缓动动画（420ms，先快后慢），不再用浏览器默认的 smooth，不会一闪就弹回去 2. 滚动停止判定从 220ms 降到 110ms，滑完立刻响应，没有明显延迟",
-  "versionCode": 70,
-  "versionName": "7.9",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/2182884228d1024cdf0daaef0fa61080e65736c8/gdut-course.apk",
+  "versionName": "8.0",
+  "notes": "1. 回弹改回 CSS transition 实现（跟手无延迟，动画由浏览器合成层执行，松手立刻弹）2. 换周阈值 18% 3. 课程透明度改成每 5% 一档，和字号一样",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/a3e21438534bf910c20442ef40326dd0406cdda7/gdut-course.apk",
+  "versionCode": 71,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/2182884228d1024cdf0daaef0fa61080e65736c8/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/2182884228d1024cdf0daaef0fa61080e65736c8/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/a3e21438534bf910c20442ef40326dd0406cdda7/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/a3e21438534bf910c20442ef40326dd0406cdda7/gdut-course.apk"
   ]
 }
