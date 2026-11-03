@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/d1a4a2bdc23b578b510c3f911bd2e1aba4b24e43/gdut-course.apk",
-  "versionCode": 91,
+  "versionName": "10.1",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/4303552c31cbfc5a9678e932241303c5a5c363da/gdut-course.apk",
+  "notes": "修复两件事同一根因：滑动的位移上限用了缓存的屏宽，屏幕宽度一变上限就偏小，导致 1) 滑不到周末（被截断后看不到周日）2) 也够不到换页阈值。现在位移、边界全部实时读取屏宽；另外切周刷新时不再强制把位置弹回周初，你在看周六日就会保持",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/d1a4a2bdc23b578b510c3f911bd2e1aba4b24e43/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/d1a4a2bdc23b578b510c3f911bd2e1aba4b24e43/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/4303552c31cbfc5a9678e932241303c5a5c363da/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/4303552c31cbfc5a9678e932241303c5a5c363da/gdut-course.apk"
   ],
-  "versionName": "10.0",
-  "notes": "修复 v9.9 引入的严重问题：改滑动时残留了两个多余的右括号，导致脚本语法错误、整段 JS 不执行，表现就是登录页勾选框点不动、按钮全失效。已修复并通过括号深度自检"
+  "versionCode": 92
 }
