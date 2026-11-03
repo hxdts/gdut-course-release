@@ -1,10 +1,10 @@
 {
-  "versionCode": 31,
-  "versionName": "4.0",
-  "notes": "1. 修复周次日期对应错了（之前把当周日期当成了第1周，所以整周偏移）2. 文字颜色每组之间加了分界线 3. 描边加粗 4. 解析失败改为准确提示并自动识别会话失效 5. 无课时改为黑边白字",
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v31.apk",
+  "versionCode": 32,
+  "notes": "1. 描边从光晕改为 8 方向硬边轮廓 2. 文字颜色默认改为「黑字 + 白描边」3. 新增「恢复默认」按钮 4. 色块改为单行横向滚动，与文字对齐",
   "urlMirror": [
-    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v30.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v30.apk"
+    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v31.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v31.apk"
   ],
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v30.apk"
+  "versionName": "4.1"
 }
