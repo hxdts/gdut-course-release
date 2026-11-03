@@ -1,10 +1,10 @@
 {
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v28.apk",
   "urlMirror": [
-    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v28.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v28.apk"
+    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v29.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v29.apk"
   ],
-  "versionName": "3.8",
-  "versionCode": 29,
-  "notes": "1. 描边改为柔和光晕渲染，不再糊字 2. 描边设置行缩进对齐 3. 修复打开后仍停在第 1 周：缓存学期起始日期并本地二次推算，算错了会自动跳到正确周"
+  "versionCode": 30,
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v29.apk",
+  "notes": "1. 周次选择器显示每周日期范围 2. 新增「按日期跳转」：选一个日期直接跳到它所在的教学周 3. 描边改柔光、设置行对齐、当前周修正",
+  "versionName": "3.9"
 }
