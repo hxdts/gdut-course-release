@@ -1,8 +1,8 @@
 {
-  "notes": "修复登录报「无法连接统一身份认证（HTTP 302）」：当设备上已有登录会话时，学校认证页会直接跳转，之前被误判为连接失败。现在会自动跟随跳转并识别已有会话直接进入。",
+  "versionName": "5.0",
   "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
-  "versionCode": 39,
-  "versionName": "4.8",
+  "notes": "1. 新增字体大小调节（80%~140%，全界面生效）2. 去掉课表顶部的「共几节课」数字 3. 修复已有会话时登录报 HTTP 302",
+  "versionCode": 41,
   "urlMirror": [
     "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
     "https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk"
