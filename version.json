@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/6a9d4637689ae9399a980884c7228b194445dfc9/gdut-course.apk",
-  "versionCode": 52,
+  "versionName": "6.2",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/6a9d4637689ae9399a980884c7228b194445dfc9/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/6a9d4637689ae9399a980884c7228b194445dfc9/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/29f8d157f2b432d25d321c942767a9d9e9f45786/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/29f8d157f2b432d25d321c942767a9d9e9f45786/gdut-course.apk"
   ],
-  "notes": "修复课表文字字号滑块的上下错位：轨道和蓝条之前没有垂直定位（缺 top），和圆点不在同一条中线上。现在三者统一 top:50% + translateY(-50%)，实测中线全部对齐到 15px",
-  "versionName": "6.1"
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/29f8d157f2b432d25d321c942767a9d9e9f45786/gdut-course.apk",
+  "versionCode": 53,
+  "notes": "1. 修复「周次字号」误控制其他列表文字（设置壁纸/移除壁纸等字号被带着变）2. 课表 7 列改为自适应整屏宽度，左右滑动即可切换上/下一周（左滑下一周、右滑上一周）3. 去掉切周时「正在刷新」的静默拦截，不会再点了没反应"
 }
