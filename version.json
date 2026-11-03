@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/65162cfa240730cc3cd1e9febe1602d714482f89/gdut-course.apk",
+  "versionCode": 137,
+  "versionName": "14.6",
+  "notes": "启动不再有空白：原来只有缓存命中时才渲染，缓存为空就什么都不画。现在无论有没有缓存都立刻画出完整界面（周次栏、时间列、底部 tab），没有数据时在课表位置显示「正在加载第 N 周课表…」。有缓存则直接显示课程",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/9cbcff2a40e04eda2696eae34538b7c1cb60ee4e/gdut-course.apk",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/65162cfa240730cc3cd1e9febe1602d714482f89/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/65162cfa240730cc3cd1e9febe1602d714482f89/gdut-course.apk"
-  ],
-  "notes": "打开即课表：不再先等原生返回登录态。只要本地存过账号密码，就直接进入主界面用缓存画课表，登录态在后台确认（失效就静默重登）。原来那 0.2 秒的空白没有了",
-  "versionName": "14.5",
-  "versionCode": 136
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/9cbcff2a40e04eda2696eae34538b7c1cb60ee4e/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/9cbcff2a40e04eda2696eae34538b7c1cb60ee4e/gdut-course.apk"
+  ]
 }
