@@ -1,10 +1,10 @@
 {
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/ec8d8af51c80f6e31434d9abf9ae90f6dd5468d8/gdut-course.apk",
+  "versionName": "12.3",
+  "notes": "修复换页动画消失：上一版跨多周会重建整个课表外层 DOM，新元素的过渡动画是空的，所以看着是瞬间跳。现在无论单周还是多周都保留外层结构、只换内页内容；跨多周额外用 160ms 淡入过渡，避免内容跳变",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/92e029f106dfc5e38012e4539beb338647d13abd/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/92e029f106dfc5e38012e4539beb338647d13abd/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/ec8d8af51c80f6e31434d9abf9ae90f6dd5468d8/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/ec8d8af51c80f6e31434d9abf9ae90f6dd5468d8/gdut-course.apk"
   ],
-  "versionName": "12.2",
-  "versionCode": 113,
-  "notes": "1. 修复「周数叠加但内容不叠加」：跨多周时改为整体重建课表（原来只轮转一页 DOM，所以周数跳了内容只换一周）2. 换页阈值 56→44px，右滑更容易触发上一周 3. 手势诊断浮层现在会显示判定依据（当前位置、边界、速度、能否左右换、跨几周）",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/92e029f106dfc5e38012e4539beb338647d13abd/gdut-course.apk"
+  "versionCode": 114
 }
