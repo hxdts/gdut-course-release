@@ -1,10 +1,10 @@
 {
-  "notes": "换页动画 3 秒（看得清），回弹单独用 320ms（不拖沓），两者分开控制",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/6ea1f189c99ee152118a62ee2abcb4cb7a1bbcda/gdut-course.apk",
+  "notes": "换页动画 3 秒，回弹单独 320ms（快），两者分开控制",
   "versionCode": 82,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/e2ebe8cd43898c58a335ed8748fa0628cc1e4ac7/gdut-course.apk",
+  "versionName": "9.1",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/6ea1f189c99ee152118a62ee2abcb4cb7a1bbcda/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/6ea1f189c99ee152118a62ee2abcb4cb7a1bbcda/gdut-course.apk"
-  ],
-  "versionName": "9.1"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/e2ebe8cd43898c58a335ed8748fa0628cc1e4ac7/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/e2ebe8cd43898c58a335ed8748fa0628cc1e4ac7/gdut-course.apk"
+  ]
 }
