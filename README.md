@@ -118,8 +118,14 @@ App 不保存密码，所有请求都是你手机直接和学校服务器通信�
 
 发新版流程：**覆盖上传 `gdut-course.apk`** → 改 `versionCode` / `versionName` / `notes`。
 
-> 为什么不用 jsDelivr 做下载地址：固定文件名会被 jsDelivr 强缓存，实测会下到几周前的旧包。
-> raw 代理是实时内容，没有这个问题。
+> **发版时必须用 commit 快照路径**：文件名是固定的 `gdut-course.apk`，而 ghproxy / gh-proxy 这类
+> raw 代理会按路径强缓存（实测即使加 `?t=` 时间戳也无效）。所以 `version.json` 里的 `url`
+> 要用 `<commit>/gdut-course.apk` 的快照地址——每版路径不同，缓存自然不会串。
+>
+> 流程：
+> 1. 覆盖上传 `gdut-course.apk`
+> 2. `gh api repos/hxdts/gdut-course-release/commits/main --jq .sha` 取到该 commit
+> 3. 用这个 commit 拼出 url，写入 `version.json`
 
 ---
 
