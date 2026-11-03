@@ -1,10 +1,10 @@
 {
-  "versionCode": 47,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
   "urlMirror": [
     "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
     "https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk"
   ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
-  "notes": "删除壁纸编辑器里的「裁剪」按钮（完成时本身就会按屏幕比例输出），保留旋转与左右/上下镜像",
-  "versionName": "5.6"
+  "versionCode": 48,
+  "notes": "1. 修复更新时可能下载到旧安装包的问题（下载地址自动追加时间戳，绕过代理强缓存）2. 删除壁纸编辑器里的裁剪按钮",
+  "versionName": "5.7"
 }
