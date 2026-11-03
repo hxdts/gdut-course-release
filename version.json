@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/ec8d8af51c80f6e31434d9abf9ae90f6dd5468d8/gdut-course.apk",
-  "versionName": "12.3",
-  "notes": "修复换页动画消失：上一版跨多周会重建整个课表外层 DOM，新元素的过渡动画是空的，所以看着是瞬间跳。现在无论单周还是多周都保留外层结构、只换内页内容；跨多周额外用 160ms 淡入过渡，避免内容跳变",
+  "versionName": "12.4",
+  "notes": "1. 修复连续滑动只能两次：上一次换页动画被打断时位置停在半路，第三次的拖动基准就错了；现在新滑动开始前如果位置不在本周范围内会先归中 2. 过渡更顺：换页动画结束后改到下一帧再重渲染，避免同帧重排造成一顿",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/c48ec5f54ea7a3d1a9c6748a8c1f282990a09a4a/gdut-course.apk",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/ec8d8af51c80f6e31434d9abf9ae90f6dd5468d8/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/ec8d8af51c80f6e31434d9abf9ae90f6dd5468d8/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/c48ec5f54ea7a3d1a9c6748a8c1f282990a09a4a/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/c48ec5f54ea7a3d1a9c6748a8c1f282990a09a4a/gdut-course.apk"
   ],
-  "versionCode": 114
+  "versionCode": 115
 }
