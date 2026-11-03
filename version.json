@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/b939194410fbc20fcbcc1c296c5912a75b10bd73/gdut-course.apk",
-  "notes": "修复课表左右滑不动：之前分页方案留下的 touch-action:pan-y 把横向触摸禁掉了，还有一条 width:100% 让课表撑满容器、根本没得滚动。现在已解除锁定，一屏显示周一到周五，往左滑看周六日",
-  "versionCode": 66,
-  "versionName": "7.5",
+  "notes": "一周一页：一屏显示周一到周五，页内左右滑动看周六日；如果已经滑到最右/最左还继续拉，就切到下一周/上一周（阈值 78px）",
+  "versionCode": 67,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/b939194410fbc20fcbcc1c296c5912a75b10bd73/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/b939194410fbc20fcbcc1c296c5912a75b10bd73/gdut-course.apk"
-  ]
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/e943e20d57660f5f7fcb365142bcb80b34e660ee/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/e943e20d57660f5f7fcb365142bcb80b34e660ee/gdut-course.apk"
+  ],
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/e943e20d57660f5f7fcb365142bcb80b34e660ee/gdut-course.apk",
+  "versionName": "7.6"
 }
