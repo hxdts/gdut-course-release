@@ -1,10 +1,10 @@
 {
+  "notes": "重要修复：上一版改课表分页时删掉了代码里一个右括号，导致整个脚本语法错误、一行 JS 都没执行（表现就是勾选框点不动、登录没反应、什么都不能点）。本版已修复并实测两个勾选框正常、登录按钮可用",
+  "versionCode": 61,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/95a7f8e688b97141e29c20b9488efa46705a3f08/gdut-course.apk",
+  "versionName": "7.0",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/b90b858b89cd50ce3068c2c0b2927cc92e5e148e/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/b90b858b89cd50ce3068c2c0b2927cc92e5e148e/gdut-course.apk"
-  ],
-  "notes": "修复登录页勾选框点了没反应：设置恢复的回调可能触发两次，导致页面初始化执行两遍、事件被重复绑定，点一次等于切换两次。现在加了防重复保护",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/b90b858b89cd50ce3068c2c0b2927cc92e5e148e/gdut-course.apk",
-  "versionCode": 60,
-  "versionName": "6.9"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/95a7f8e688b97141e29c20b9488efa46705a3f08/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/95a7f8e688b97141e29c20b9488efa46705a3f08/gdut-course.apk"
+  ]
 }
