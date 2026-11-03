@@ -1,10 +1,10 @@
 {
-  "versionCode": 87,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/a3807a79a71cb60571f5e96a54f2c955fa263ad9/gdut-course.apk",
+  "notes": "1. 没课的周也能左右滑动切换了（空周照样渲染空白课表条带）2. 换页不再卡一下：改用 transitionend 在动画真正结束时才换数据，之前用定时器会和动画错开 3. 不够阈值时完整回弹到本周页的端点",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/0d0f3c02dcc9ee90f1958becad0f63393b9c41da/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/0d0f3c02dcc9ee90f1958becad0f63393b9c41da/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/a3807a79a71cb60571f5e96a54f2c955fa263ad9/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/a3807a79a71cb60571f5e96a54f2c955fa263ad9/gdut-course.apk"
   ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/0d0f3c02dcc9ee90f1958becad0f63393b9c41da/gdut-course.apk",
-  "notes": "换页阈值 22% → 16%（约 90px 就换页）",
-  "versionName": "9.6"
+  "versionName": "9.7",
+  "versionCode": 88
 }
