@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/d1815f380977122df7d922343deebda32bb8ccee/gdut-course.apk",
-  "versionCode": 50,
-  "versionName": "5.9",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/d1815f380977122df7d922343deebda32bb8ccee/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/d1815f380977122df7d922343deebda32bb8ccee/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/fd2175d1b04ee1a24f82c5693d5b2aa990a4fc39/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/fd2175d1b04ee1a24f82c5693d5b2aa990a4fc39/gdut-course.apk"
   ],
-  "notes": "1. 壁纸适应改为「左右完整 / 上下完整」两种完整显示模式 2. 删除「课程配色」预设方案 3. 课表下方每门课右侧新增颜色圆点，点它可单独设置该课颜色，支持单课「默认」和「全部恢复默认」4. 课表文字字号滑块改用 CSS 计算位置，彻底修复错位"
+  "versionCode": 51,
+  "notes": "彻底修复课表文字字号滑块脱轨：轨道、蓝条、圆点改用同一套坐标（都从 11px 起、宽度减 22px），蓝条右端与圆点中心在任意位置都严格重合；同时去掉宽度动画避免拖动时视觉滞后",
+  "versionName": "6.0",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/fd2175d1b04ee1a24f82c5693d5b2aa990a4fc39/gdut-course.apk"
 }
