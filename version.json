@@ -1,10 +1,10 @@
 {
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/110ce835b63a458287c4bcc929ca6db0be5ae888/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/110ce835b63a458287c4bcc929ca6db0be5ae888/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/d0a9b517ec3e798614f515ebbe6328173fdcf169/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/d0a9b517ec3e798614f515ebbe6328173fdcf169/gdut-course.apk"
   ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/110ce835b63a458287c4bcc929ca6db0be5ae888/gdut-course.apk",
-  "versionName": "13.10",
-  "notes": "紧急修复：13.9 部分机型启动后只剩一片背景色。原因是启动时等待原生设置备份回调，那一步没回来就一直卡在启动遮罩上。现在加了 2.5 秒兜底，无论卡在哪都会正常进入界面。README 版本号也修正了（之前一直停在 5.6）",
-  "versionCode": 131
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/d0a9b517ec3e798614f515ebbe6328173fdcf169/gdut-course.apk",
+  "versionCode": 131,
+  "notes": "版本号改回每次 +0.1 递增（13.9 → 14.0）。本版内容：修复部分机型启动后只剩一片背景色——启动时加了 2.5 秒兜底，即使原生设置备份没回调也会正常进入界面",
+  "versionName": "14.0"
 }
