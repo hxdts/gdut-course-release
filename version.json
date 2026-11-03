@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/4b5ce546565387ee1e2753828d99ce3642cd8424/gdut-course.apk",
-  "notes": "描边粗细删掉「自动」选项（它本来就是细）。现在只有 无 / 细 / 中 / 粗 四档，默认细；原来存过「自动」的按「细」处理",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/6f695573b6755859b311ca8a20972ed2709376b4/gdut-course.apk",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/4b5ce546565387ee1e2753828d99ce3642cd8424/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/4b5ce546565387ee1e2753828d99ce3642cd8424/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/6f695573b6755859b311ca8a20972ed2709376b4/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/6f695573b6755859b311ca8a20972ed2709376b4/gdut-course.apk"
   ],
-  "versionName": "13.0",
-  "versionCode": 121
+  "versionName": "13.2",
+  "versionCode": 123,
+  "notes": "协议与实际行为对齐：1. 密码保存描述改准确（勾选时存在本机、退出登录会清） 2. 补充「自动重新登录」会再次使用密码 3. 补充课表整学期缓存在本机 4. 补充更新时会访问 GitHub 或第三方加速代理下载 5. 补一句无统计/广告 SDK、不收集设备信息"
 }
