@@ -1,10 +1,10 @@
 {
-  "notes": "删除登录页下方的两行灰色说明文字",
-  "versionCode": 126,
+  "notes": "1. 启动时先用本地缓存立刻画出课表，不再等网络 2. 后台刷新完成后比对数据签名，内容没变就不重绘",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/28ae52b64051c9ada83cd875b2dd60251519c176/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/28ae52b64051c9ada83cd875b2dd60251519c176/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/afc3327c66c98d3e475e75fe1796071d6a1a8900/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/afc3327c66c98d3e475e75fe1796071d6a1a8900/gdut-course.apk"
   ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/28ae52b64051c9ada83cd875b2dd60251519c176/gdut-course.apk",
-  "versionName": "13.5"
+  "versionName": "13.6",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/afc3327c66c98d3e475e75fe1796071d6a1a8900/gdut-course.apk",
+  "versionCode": 127
 }
