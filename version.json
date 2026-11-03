@@ -1,10 +1,10 @@
 {
-  "notes": "1. 课表列宽改为纯 CSS 自适应屏幕（100vw），一屏正好周一到周五 5 天完整显示，不会再有裁切或错位 2. 重要：app.js / style.css 打包时自动带版本号（app.10.6.js），解决安卓 WebView 缓存旧文件导致改动不生效的问题——之前几次「改了没变化」多半就是这个 3. 屏幕旋转/分屏时自动重新布局",
+  "versionCode": 99,
+  "versionName": "10.8",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/3a13fc3ae7be04762ad3dddeaf4916107459bdbc/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/3a13fc3ae7be04762ad3dddeaf4916107459bdbc/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/30473dd142a005fe8bafc373cee83f8842494f58/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/30473dd142a005fe8bafc373cee83f8842494f58/gdut-course.apk"
   ],
-  "versionCode": 97,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/3a13fc3ae7be04762ad3dddeaf4916107459bdbc/gdut-course.apk",
-  "versionName": "10.6"
+  "notes": "1. 修复左右键/周次失灵：切周函数里漏了更新当前周次，导致点了只换数据不换周 2. 快速一甩（500px/s 以上）在任何位置都直接换页，不再需要先滑到边界——以最后一次动作为准 3. 慢滑阈值从 10% 降到 6% 4. 课程方块右侧留出约 12px 缝隙，一屏仍是 5 天",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/30473dd142a005fe8bafc373cee83f8842494f58/gdut-course.apk"
 }
