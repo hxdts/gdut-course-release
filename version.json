@@ -1,10 +1,10 @@
 {
-  "notes": "修复连续滑动只算一次：上一版为了流畅把换周渲染延到下一帧，但用户紧接着再滑时那次换周就被新滑动覆盖掉了。现在改为「挂起」——换周待渲染时先记下来，下一次滑动开始前先把它兑现，两次滑动都能生效",
+  "versionCode": 117,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/cfb0d047b4d36caccceac8468d008e9712dd18a9/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/cfb0d047b4d36caccceac8468d008e9712dd18a9/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/fd22e2602370e48d25a596a04ad04db6fc793bf4/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/fd22e2602370e48d25a596a04ad04db6fc793bf4/gdut-course.apk"
   ],
-  "versionCode": 116,
-  "versionName": "12.5",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/cfb0d047b4d36caccceac8468d008e9712dd18a9/gdut-course.apk"
+  "notes": "修复连续滑动只算一次的关键：上一次换页动画被新的滑动打断时，那次换周被直接丢弃了。现在打断也会把目标周挂起，新滑动开始前兑现，所以每一下甩动都会真正换一周",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/fd22e2602370e48d25a596a04ad04db6fc793bf4/gdut-course.apk",
+  "versionName": "12.6"
 }
