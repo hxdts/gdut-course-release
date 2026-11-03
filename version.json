@@ -1,10 +1,10 @@
 {
-  "notes": "登录页两个勾选框（同意协议 / 记住密码）改为页面级委托绑定，不依赖启动时序，实测点击可正常切换状态",
-  "versionName": "7.1",
+  "versionName": "7.2",
+  "versionCode": 63,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/b2663e1ad1904bf64d28d1dfdb494a0364472f5c/gdut-course.apk",
+  "notes": "勾选框点击修复双保险：1) 不再用 closest()（部分安卓 WebView 对勾选框里的 SVG 子元素不支持）改为逐级向上查找；2) 勾选框内容设 pointer-events:none，保证点击一定落在整行上。所以点框、点文字都能切换",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/f925be95c109373405f963786b181337f4f850c3/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/f925be95c109373405f963786b181337f4f850c3/gdut-course.apk"
-  ],
-  "versionCode": 62,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/f925be95c109373405f963786b181337f4f850c3/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/b2663e1ad1904bf64d28d1dfdb494a0364472f5c/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/b2663e1ad1904bf64d28d1dfdb494a0364472f5c/gdut-course.apk"
+  ]
 }
