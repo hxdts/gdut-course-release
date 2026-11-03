@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
-  "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk"
-  ],
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/a34ddf125683b66a68221f8cdcf926fca4ecdba7/gdut-course.apk",
   "versionCode": 48,
-  "notes": "1. 修复更新时可能下载到旧安装包的问题（下载地址自动追加时间戳，绕过代理强缓存）2. 删除壁纸编辑器里的裁剪按钮",
-  "versionName": "5.7"
+  "versionName": "5.7",
+  "notes": "1. 修复更新时可能下载到旧安装包的问题：下载地址改为带 commit 的快照路径，不再受代理缓存影响 2. 删除壁纸编辑器里的裁剪按钮",
+  "urlMirror": [
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/a34ddf125683b66a68221f8cdcf926fca4ecdba7/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/a34ddf125683b66a68221f8cdcf926fca4ecdba7/gdut-course.apk"
+  ]
 }
