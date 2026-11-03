@@ -2,7 +2,7 @@
 
 广东工业大学教务系统的安卓客户端。**直接调用学校接口取数据**，不是网页套壳。
 
-> 作者：hxdts ｜ 包名：`com.gdut.course` ｜ 版本：**5.1** ｜ 支持 Android 6.0+
+> 作者：hxdts ｜ 包名：`com.gdut.course` ｜ 版本：**5.2** ｜ 支持 Android 6.0+
 
 ---
 
@@ -54,6 +54,8 @@
 | **文字颜色** | 周次 / 星期 / 日期 / 节数 / 课程文字，五类独立设置，各 23 种颜色（含完整灰阶） |
 | **文字描边** | 每类文字可单独选描边颜色（含「无」），引擎级 `-webkit-text-stroke` 渲染 |
 | 恢复默认 | 一键回到「白字 + 黑边」 |
+| **记住密码** | 登录一次后，重开 App 或会话过期都会自动登录 |
+| **设置备份** | 外观设置备份到系统存储，覆盖更新后不丢失 |
 
 ### 📊 成绩与绩点
 
@@ -104,8 +106,8 @@ App 不保存密码，所有请求都是你手机直接和学校服务器通信�
 
 ```json
 {
-  "versionCode": 42,
-  "versionName": "5.1",
+  "versionCode": 43,
+  "versionName": "5.2",
   "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
   "urlMirror": [
     "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
@@ -146,5 +148,6 @@ App 不保存密码，所有请求都是你手机直接和学校服务器通信�
 个人学习作品，与广东工业大学官方无任何隶属关系。数据仅供参考，与学校系统显示不一致时以学校系统为准。
 
 学校系统改版可能导致功能暂时失效，届时请等待更新。
+
 
 
