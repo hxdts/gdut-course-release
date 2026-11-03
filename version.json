@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/6f695573b6755859b311ca8a20972ed2709376b4/gdut-course.apk",
+  "notes": "1. 删除登录页的「网页登录」入口（相关提示文案一并清掉）2. 协议勾选状态会记住，退出登录后重新打开仍是勾选状态 3. 退出登录只清会话，保存的账号密码保留（协议已同步写清楚）4. 协议全文与实际行为核对校准：密码本地保存、自动重登、整学期缓存、第三方更新地址、无统计 SDK",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/573e346f5cd6b2f8d9a88d369e549e697e9ce0d0/gdut-course.apk",
+  "versionName": "13.3",
+  "versionCode": 124,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/6f695573b6755859b311ca8a20972ed2709376b4/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/6f695573b6755859b311ca8a20972ed2709376b4/gdut-course.apk"
-  ],
-  "versionName": "13.2",
-  "versionCode": 123,
-  "notes": "协议与实际行为对齐：1. 密码保存描述改准确（勾选时存在本机、退出登录会清） 2. 补充「自动重新登录」会再次使用密码 3. 补充课表整学期缓存在本机 4. 补充更新时会访问 GitHub 或第三方加速代理下载 5. 补一句无统计/广告 SDK、不收集设备信息"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/573e346f5cd6b2f8d9a88d369e549e697e9ce0d0/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/573e346f5cd6b2f8d9a88d369e549e697e9ce0d0/gdut-course.apk"
+  ]
 }
