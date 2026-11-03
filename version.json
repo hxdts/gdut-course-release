@@ -1,10 +1,10 @@
 {
-  "notes": "1. 一屏 5 天的列宽改成按可用宽度均分，周六日两天的宽度就变成可滑动空间（原来只有 60px，几乎滑不动）2. 松手时吸附到最近的端点：左端=周一到周五，右端=周三到周日，不会停在半路 3. 快速/大幅滑动直接换页",
-  "versionName": "10.3",
+  "notes": "1. 课表列宽改为纯 CSS 自适应屏幕（100vw），一屏正好周一到周五 5 天完整显示，不会再有裁切或错位 2. 重要：app.js / style.css 打包时自动带版本号（app.10.6.js），解决安卓 WebView 缓存旧文件导致改动不生效的问题——之前几次「改了没变化」多半就是这个 3. 屏幕旋转/分屏时自动重新布局",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/ef268d3b1a6f10ce0528e16fc3f99cc6dc0615a7/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/ef268d3b1a6f10ce0528e16fc3f99cc6dc0615a7/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/3a13fc3ae7be04762ad3dddeaf4916107459bdbc/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/3a13fc3ae7be04762ad3dddeaf4916107459bdbc/gdut-course.apk"
   ],
-  "versionCode": 94,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/ef268d3b1a6f10ce0528e16fc3f99cc6dc0615a7/gdut-course.apk"
+  "versionCode": 97,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/3a13fc3ae7be04762ad3dddeaf4916107459bdbc/gdut-course.apk",
+  "versionName": "10.6"
 }
