@@ -1,10 +1,10 @@
 {
-  "notes": "换页动画 3 秒，回弹单独 320ms（快），两者分开控制",
-  "versionCode": 82,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/e2ebe8cd43898c58a335ed8748fa0628cc1e4ac7/gdut-course.apk",
-  "versionName": "9.1",
+  "versionCode": 83,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/e2ebe8cd43898c58a335ed8748fa0628cc1e4ac7/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/e2ebe8cd43898c58a335ed8748fa0628cc1e4ac7/gdut-course.apk"
-  ]
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/da39f629d4529266629d613a8e3a16dd007af5a7/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/da39f629d4529266629d613a8e3a16dd007af5a7/gdut-course.apk"
+  ],
+  "notes": "1. 换页动画 3 秒改为 1 秒，缓动曲线换成更顺滑的 cubic-bezier(.4,0,.2,1) 2. 换页阈值从 18% 提高到 38%，不容易误触（回弹仍是 320ms）",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/da39f629d4529266629d613a8e3a16dd007af5a7/gdut-course.apk",
+  "versionName": "9.2"
 }
