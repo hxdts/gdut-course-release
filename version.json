@@ -1,10 +1,10 @@
 {
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/56f59e293ba4a081e809ff387251ff47670df879/gdut-course.apk",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/a9a81e67eb79f01d111e571a4a6839173a17638e/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/a9a81e67eb79f01d111e571a4a6839173a17638e/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/56f59e293ba4a081e809ff387251ff47670df879/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/56f59e293ba4a081e809ff387251ff47670df879/gdut-course.apk"
   ],
-  "versionName": "6.7",
-  "notes": "1. 课表改为三页轨道：上一周 / 本周 / 下一周并排，滑动时能看到相邻周的真实课表（无缓存时显示空网格）2. 跟手平移，滑过 30% 松手切换周次，没过回弹 3. 切换时轨道先滑到目标页再加载数据，视觉上连续不空白",
-  "versionCode": 58,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/a9a81e67eb79f01d111e571a4a6839173a17638e/gdut-course.apk"
+  "versionName": "6.8",
+  "notes": "修复登录页「我已阅读并同意」和「记住密码」两个勾选框黏在一起的问题，现在有正常间距",
+  "versionCode": 59
 }
