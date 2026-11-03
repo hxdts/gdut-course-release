@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/56f59e293ba4a081e809ff387251ff47670df879/gdut-course.apk",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/56f59e293ba4a081e809ff387251ff47670df879/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/56f59e293ba4a081e809ff387251ff47670df879/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/b90b858b89cd50ce3068c2c0b2927cc92e5e148e/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/b90b858b89cd50ce3068c2c0b2927cc92e5e148e/gdut-course.apk"
   ],
-  "versionName": "6.8",
-  "notes": "修复登录页「我已阅读并同意」和「记住密码」两个勾选框黏在一起的问题，现在有正常间距",
-  "versionCode": 59
+  "notes": "修复登录页勾选框点了没反应：设置恢复的回调可能触发两次，导致页面初始化执行两遍、事件被重复绑定，点一次等于切换两次。现在加了防重复保护",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/b90b858b89cd50ce3068c2c0b2927cc92e5e148e/gdut-course.apk",
+  "versionCode": 60,
+  "versionName": "6.9"
 }
