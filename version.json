@@ -1,10 +1,10 @@
 {
-  "versionCode": 108,
-  "versionName": "11.7",
-  "notes": "1. 换页阈值 96px→56px：原来要滑 1/4 屏才换页，你觉得划不动其实是阈值太高 2. 换页动画 600ms→320ms：滑完立刻有反应，不再是「等一下才变」 3. 吸附动画 260ms→220ms 4. 教务会话过期时，只要保存过账号密码就静默自动重登，不再弹登录框",
+  "versionCode": 109,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/c3d77cfcdcd3563d7a2e1ee359ef46d7fb353595/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/c3d77cfcdcd3563d7a2e1ee359ef46d7fb353595/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/bd93a857d7f3b7557607ad9e8e8989f1a3d535c7/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/bd93a857d7f3b7557607ad9e8e8989f1a3d535c7/gdut-course.apk"
   ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/c3d77cfcdcd3563d7a2e1ee359ef46d7fb353595/gdut-course.apk"
+  "notes": "1. 修复「某一周只有体育」：整学期预缓存函数此前从未被调用（漏了触发），现在拉到课表后会自动后台补齐整个学期 2. 缓存写入加保护：拿到空数据不会覆盖已有的完整缓存 3. 点刷新会强制重拉全部周，修掉历史残缺缓存 4. 壁纸/记住密码设置完立即备份到原生，不再等轮询，更新后不丢",
+  "versionName": "11.8",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/bd93a857d7f3b7557607ad9e8e8989f1a3d535c7/gdut-course.apk"
 }
