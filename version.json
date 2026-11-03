@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/441492201db458d093b92de880c1c3062e5a3750/gdut-course.apk",
+  "notes": "删除登录页下方的两行灰色说明文字",
+  "versionCode": 126,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/441492201db458d093b92de880c1c3062e5a3750/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/441492201db458d093b92de880c1c3062e5a3750/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/28ae52b64051c9ada83cd875b2dd60251519c176/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/28ae52b64051c9ada83cd875b2dd60251519c176/gdut-course.apk"
   ],
-  "versionName": "13.4",
-  "versionCode": 125,
-  "notes": "1. 退出登录后：登录页会自动填好账号密码、勾选协议，但不会自动登录，需要你自己点「登录」；这个状态会一直保持，直到你手动登录成功一次 2. 删除「我的」页面底部的灰色说明文字"
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/28ae52b64051c9ada83cd875b2dd60251519c176/gdut-course.apk",
+  "versionName": "13.5"
 }
