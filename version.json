@@ -1,10 +1,10 @@
 {
-  "versionCode": 42,
-  "notes": "1. 新增「课表文字字号」：周次/星期/日期/节数/课程 五类各自独立调节（70%~160%）2. 保留全局字体大小缩放（80%~140%）3. 去掉课表顶部「共几节课」",
-  "versionName": "5.1",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
+  "versionName": "5.2",
   "urlMirror": [
     "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
     "https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk"
-  ]
+  ],
+  "notes": "1. 新增「记住密码」：登录一次后，重开 App 或会话过期都会自动登录 2. 外观设置（主题/壁纸/颜色/字号/透明度）会备份到原生存储，更新后不丢 3. 课表文字字号改用拖动滑块，操作方式与透明度一致 4. 去掉课表顶部多余留白",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
+  "versionCode": 43
 }
