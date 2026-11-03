@@ -1,10 +1,10 @@
 {
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
+  "notes": "1. 壁纸改为相册式编辑：选图后进入全屏预览，可拖动调整位置、双指缩放，底部有旋转/左右镜像/上下镜像/裁剪 2. 取消编辑不会丢失原壁纸 3. 修复课表字号滑块在两端溢出轨道",
+  "versionCode": 46,
+  "versionName": "5.5",
   "urlMirror": [
     "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
     "https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk"
-  ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
-  "versionCode": 45,
-  "notes": "1. 恢复顶部蓝色标题栏，并彻底封住顶部（去掉 body 默认 8px 边距）2. 删除「从手机文件更新」入口 3. 壁纸新增旋转、左右镜像、上下镜像、按屏幕比例裁剪",
-  "versionName": "5.4"
+  ]
 }
