@@ -1,10 +1,10 @@
 {
+  "versionCode": 31,
+  "versionName": "4.0",
+  "notes": "1. 修复周次日期对应错了（之前把当周日期当成了第1周，所以整周偏移）2. 文字颜色每组之间加了分界线 3. 描边加粗 4. 解析失败改为准确提示并自动识别会话失效 5. 无课时改为黑边白字",
   "urlMirror": [
-    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v29.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v29.apk"
+    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v30.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v30.apk"
   ],
-  "versionCode": 30,
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v29.apk",
-  "notes": "1. 周次选择器显示每周日期范围 2. 新增「按日期跳转」：选一个日期直接跳到它所在的教学周 3. 描边改柔光、设置行对齐、当前周修正",
-  "versionName": "3.9"
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v30.apk"
 }
