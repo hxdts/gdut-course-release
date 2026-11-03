@@ -1,10 +1,10 @@
 {
-  "versionName": "12.0",
-  "versionCode": 111,
-  "notes": "修复周次与日期对不上：相邻周（上一周/下一周）之前都在用本周的日期数组，所以滑动时周数变了日期却没变。现在每一页用自己那一周的日期；如果该周没有缓存，就按学期起始日推算，保证日期永远和周次对应",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/78cdd7ee9f89916c7fcf0b0e53ee68a546d45105/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/78cdd7ee9f89916c7fcf0b0e53ee68a546d45105/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/4717d43ff09778db4165632cbe075dbb66963c20/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/4717d43ff09778db4165632cbe075dbb66963c20/gdut-course.apk"
   ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/78cdd7ee9f89916c7fcf0b0e53ee68a546d45105/gdut-course.apk"
+  "notes": "1. 修复日期消失：上一版参数命名把表头的「一二三四五六日」覆盖掉了 2. 修复右滑卡死：已经在第一周再往左滑、或最后一周再往右滑时，只吸附不再换页（之前会动画滑过去但换不了周，卡在半路）3. 效果叠加：一次滑动越过几页就跨几周，最多 4 周",
+  "versionName": "12.1",
+  "versionCode": 112,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/4717d43ff09778db4165632cbe075dbb66963c20/gdut-course.apk"
 }
