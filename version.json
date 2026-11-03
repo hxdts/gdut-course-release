@@ -1,10 +1,10 @@
 {
-  "versionName": "9.5",
-  "notes": "换页阈值 28% → 22%（约 123px 就换页），换页动画 1000ms → 800ms",
+  "versionCode": 87,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/bb34ca993805e9b4981792fabde2c9da7d9472fa/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/bb34ca993805e9b4981792fabde2c9da7d9472fa/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/0d0f3c02dcc9ee90f1958becad0f63393b9c41da/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/0d0f3c02dcc9ee90f1958becad0f63393b9c41da/gdut-course.apk"
   ],
-  "versionCode": 86,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/bb34ca993805e9b4981792fabde2c9da7d9472fa/gdut-course.apk"
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/0d0f3c02dcc9ee90f1958becad0f63393b9c41da/gdut-course.apk",
+  "notes": "换页阈值 22% → 16%（约 90px 就换页）",
+  "versionName": "9.6"
 }
