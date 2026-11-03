@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/8b5e67c66196bc8cad9eff4b21ca97827bddf858/gdut-course.apk",
-  "notes": "启动图这次真的贴边了：之前用 layer-list 包了一层，里面的 bitmap 还是按图片原始尺寸摆的，所以整张图缩在中间、四周露深色底。现在窗口背景直接指向图片本身，覆盖层也改成用 View 的 background（由 View 边界拉伸），两处都不会再缩",
-  "versionCode": 144,
-  "versionName": "15.3",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/8b5e67c66196bc8cad9eff4b21ca97827bddf858/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/8b5e67c66196bc8cad9eff4b21ca97827bddf858/gdut-course.apk"
-  ]
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/ddab07340fc727d20874fe17b377ae00e37131fe/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/ddab07340fc727d20874fe17b377ae00e37131fe/gdut-course.apk"
+  ],
+  "notes": "启动图立绘改成左右占满屏幕（原来只占 88%，两侧各留 6% 模糊带，看起来像没贴边）。现在立绘宽度等于屏宽，上下是模糊背景，背景也不再压那么暗",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/ddab07340fc727d20874fe17b377ae00e37131fe/gdut-course.apk",
+  "versionName": "15.4",
+  "versionCode": 145
 }
