@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/a34ddf125683b66a68221f8cdcf926fca4ecdba7/gdut-course.apk",
-  "versionCode": 48,
-  "versionName": "5.7",
-  "notes": "1. 修复更新时可能下载到旧安装包的问题：下载地址改为带 commit 的快照路径，不再受代理缓存影响 2. 删除壁纸编辑器里的裁剪按钮",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/db2e4bfc5095d4c8429b3119c417fc8dc00c97bf/gdut-course.apk",
+  "versionName": "5.8",
+  "versionCode": 49,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/a34ddf125683b66a68221f8cdcf926fca4ecdba7/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/a34ddf125683b66a68221f8cdcf926fca4ecdba7/gdut-course.apk"
-  ]
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/db2e4bfc5095d4c8429b3119c417fc8dc00c97bf/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/db2e4bfc5095d4c8429b3119c417fc8dc00c97bf/gdut-course.apk"
+  ],
+  "notes": "1. 删除壁纸编辑器（旋转/镜像/拖动），选图即用 2. 新增「屏幕适应」：左右铺满 / 上下完整 3. 修复课表文字字号滑块在部分情况下与轨道错位"
 }
