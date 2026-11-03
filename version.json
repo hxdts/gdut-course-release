@@ -1,10 +1,10 @@
 {
-  "versionCode": 120,
-  "notes": "会话过期自动重登时加一句提示「登录已过期，正在自动重新登录…」，让你知道它在干什么，不是卡住",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/4b5ce546565387ee1e2753828d99ce3642cd8424/gdut-course.apk",
+  "notes": "描边粗细删掉「自动」选项（它本来就是细）。现在只有 无 / 细 / 中 / 粗 四档，默认细；原来存过「自动」的按「细」处理",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/53030958b66e8610996151058659250444aac834/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/53030958b66e8610996151058659250444aac834/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/4b5ce546565387ee1e2753828d99ce3642cd8424/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/4b5ce546565387ee1e2753828d99ce3642cd8424/gdut-course.apk"
   ],
-  "versionName": "12.9",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/53030958b66e8610996151058659250444aac834/gdut-course.apk"
+  "versionName": "13.0",
+  "versionCode": 121
 }
