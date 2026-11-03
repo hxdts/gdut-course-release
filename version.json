@@ -1,10 +1,10 @@
 {
-  "versionCode": 35,
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v34.apk",
-  "versionName": "4.4",
-  "notes": "1. 颜色色块区加了「⇄ 左右滑动」提示 2. 每行右侧渐隐，暗示还有更多颜色 3. 显示细滚动条 4. 断网也能定位本周",
+  "versionName": "4.5",
+  "notes": "1. 联网刷新后自动把整个学期每一周都缓存下来，断网可看任意一周（顶部会显示缓存进度）2. 透明度默认改为 10% 3. 透明度滑块加大手柄和触摸区，减少误触",
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v35.apk",
+  "versionCode": 36,
   "urlMirror": [
-    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v34.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v34.apk"
+    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v35.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v35.apk"
   ]
 }
