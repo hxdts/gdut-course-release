@@ -1,10 +1,10 @@
 {
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v27.apk",
-  "versionCode": 28,
-  "notes": "1. 新增独立的「周次」颜色与描边设置 2. 每类文字（周次/星期/日期/节数/课程）可单独设置描边颜色，第一格为「无」3. 描边改回 text-shadow 兼容所有机型 4. 没有课的周不再显示「加载中」5. 每次打开自动定位到今天的教学周",
-  "versionName": "3.7",
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v28.apk",
   "urlMirror": [
-    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v27.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v27.apk"
-  ]
+    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v28.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v28.apk"
+  ],
+  "versionName": "3.8",
+  "versionCode": 29,
+  "notes": "1. 描边改为柔和光晕渲染，不再糊字 2. 描边设置行缩进对齐 3. 修复打开后仍停在第 1 周：缓存学期起始日期并本地二次推算，算错了会自动跳到正确周"
 }
