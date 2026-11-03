@@ -1,8 +1,8 @@
 {
-  "versionCode": 38,
-  "versionName": "4.7",
-  "notes": "1. 透明度滑块改为自定义控件，点击轨道不再误触 2. 整学期课表 WiFi 下预缓存 3. 默认白字黑边、引擎级描边 4. 安装包改为固定文件名",
+  "notes": "修复登录报「无法连接统一身份认证（HTTP 302）」：当设备上已有登录会话时，学校认证页会直接跳转，之前被误判为连接失败。现在会自动跟随跳转并识别已有会话直接进入。",
   "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
+  "versionCode": 39,
+  "versionName": "4.8",
   "urlMirror": [
     "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
     "https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk"
