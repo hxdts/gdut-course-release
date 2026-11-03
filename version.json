@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/d9530783e2f22cc12d2a39e0d73dfc966ffcf4d3/gdut-course.apk",
-  "notes": "回滚「启动不闪登录页」那套改动——遮罩盖住界面导致只剩背景。现在恢复成登录页先显示、确认已登录再进主界面（会闪一下，但一定能用）。另外每个初始化步骤都加了独立容错，任何一步出错都不会挡住进入界面",
-  "versionName": "14.1",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/d9530783e2f22cc12d2a39e0d73dfc966ffcf4d3/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/d9530783e2f22cc12d2a39e0d73dfc966ffcf4d3/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/831f29cfeb83dbb0b698bafd57c282dd4d0fbed3/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/831f29cfeb83dbb0b698bafd57c282dd4d0fbed3/gdut-course.apk"
   ],
-  "versionCode": 132
+  "notes": "修复白屏的两个根因：1. 原生侧原先是先加载页面、后注入 window.Native，页面脚本偶尔抢在前面跑，就会把「没有原生接口」当成浏览器预览，显示空界面——现在改成先注入再加载 2. JS 侧的「有没有原生接口」原来是加载时判断一次就固定，现在每次调用都重新判断，启动时也会等桥出现再启动 3. 界面 WebView 禁用缓存，避免读到旧 index.html 去引用已删除的 js",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/831f29cfeb83dbb0b698bafd57c282dd4d0fbed3/gdut-course.apk",
+  "versionName": "14.2",
+  "versionCode": 133
 }
