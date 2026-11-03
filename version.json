@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/3923208cd087566f5cffdbf1c007953ddc49f281/gdut-course.apk",
-  "notes": "默认课程配色从 7 色扩到 12 色（色相分散，蓝橙绿紫粉金青草绿红teal淡紫棕），并且不再用名字哈希取色——改成按整学期所有课程名排序后依次分配，同时出现的课不会撞色，同一门课在任何周颜色都固定。自己设置过的课程颜色仍然优先",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/06c7825da99802e9fb01c71d339e020536705bc5/gdut-course.apk",
+  "notes": "1. 删除课表右上角的灰色缓存提示文字 2. 启动不再闪登录界面：登录页默认隐藏，先显示一层蓝色底色，等确认已登录后直接进主界面；未登录才显示登录页",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/3923208cd087566f5cffdbf1c007953ddc49f281/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/3923208cd087566f5cffdbf1c007953ddc49f281/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/06c7825da99802e9fb01c71d339e020536705bc5/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/06c7825da99802e9fb01c71d339e020536705bc5/gdut-course.apk"
   ],
-  "versionCode": 128,
-  "versionName": "13.7"
+  "versionCode": 129,
+  "versionName": "13.8"
 }
