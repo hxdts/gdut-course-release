@@ -1,10 +1,10 @@
 {
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/d1a4a2bdc23b578b510c3f911bd2e1aba4b24e43/gdut-course.apk",
+  "versionCode": 91,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/3b65aa22d4118c6df70df5a67515139a8dbc7246/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/3b65aa22d4118c6df70df5a67515139a8dbc7246/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/d1a4a2bdc23b578b510c3f911bd2e1aba4b24e43/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/d1a4a2bdc23b578b510c3f911bd2e1aba4b24e43/gdut-course.apk"
   ],
-  "versionName": "9.9",
-  "versionCode": 90,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/3b65aa22d4118c6df70df5a67515139a8dbc7246/gdut-course.apk",
-  "notes": "以最新动作为准：手指越过本周边界后，只要甩得够快（约 500px/s）就直接换页，不再要求滑够距离；位置阈值也从 16% 降到 12%。慢拖仍然需要滑够距离"
+  "versionName": "10.0",
+  "notes": "修复 v9.9 引入的严重问题：改滑动时残留了两个多余的右括号，导致脚本语法错误、整段 JS 不执行，表现就是登录页勾选框点不动、按钮全失效。已修复并通过括号深度自检"
 }
