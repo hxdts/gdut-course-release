@@ -1,10 +1,10 @@
 {
-  "versionCode": 33,
+  "notes": "1. 断网时也能跳到本周：启动时用本地缓存的学期起始日期自己算当前周，不再依赖联网 2. 学期代码也本地缓存，断网可读取本地课表缓存",
   "urlMirror": [
-    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v32.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v32.apk"
+    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v33.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v33.apk"
   ],
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v32.apk",
-  "versionName": "4.2",
-  "notes": "1. 描边改用引擎级 -webkit-text-stroke，边缘干净不再毛糙 2. 默认配色改为「白字 + 黑边」3. 恢复默认按钮同步改为白字黑边"
+  "versionName": "4.3",
+  "versionCode": 34,
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v33.apk"
 }
