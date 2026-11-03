@@ -1,10 +1,10 @@
 {
-  "versionCode": 106,
-  "notes": "课表横滑手势重写：1. 改用 Pointer Events + 指针捕获，连续滑动不再丢事件 2. 速度采样顺序修正（之前算反了），甩动判定加「总位移」兜底 3. 松手一定吸附到端点，并在动画后再确认一次位置 4. 多层 pointerup 兜底（sc/document/window），touchcancel 也不会卡住 5. app.js/style.css 自动带版本号，避免 WebView 用旧缓存",
+  "notes": "1. 周内滑动不再翻页：只有越过本周页边界 96px（或越过后再快甩）才换页，小幅滑动只会吸附到端点，想停在周六日就不会被翻走 2. 事件监听改为 document 级委托，换周重建 DOM 也不会丢监听，连续滑动能连翻 3. 课表缓存（整学期）纳入原生备份，系统清理存储或覆盖安装后不再丢课表 4. 备份采样从 600ms 缩到 400ms，设置/壁纸/记住密码更不易丢",
+  "versionName": "11.6",
+  "versionCode": 107,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/c55355d48de86fa85eced35f702a7e768919e1b6/gdut-course.apk",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/e861218bb9b97eeedaf91a8182cc7211bb1aec03/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/e861218bb9b97eeedaf91a8182cc7211bb1aec03/gdut-course.apk"
-  ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/e861218bb9b97eeedaf91a8182cc7211bb1aec03/gdut-course.apk",
-  "versionName": "11.5"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/c55355d48de86fa85eced35f702a7e768919e1b6/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/c55355d48de86fa85eced35f702a7e768919e1b6/gdut-course.apk"
+  ]
 }
