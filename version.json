@@ -1,10 +1,10 @@
 {
+  "versionName": "12.0",
+  "versionCode": 111,
+  "notes": "修复周次与日期对不上：相邻周（上一周/下一周）之前都在用本周的日期数组，所以滑动时周数变了日期却没变。现在每一页用自己那一周的日期；如果该周没有缓存，就按学期起始日推算，保证日期永远和周次对应",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/5e41d9cb40eb05012b83bbe5769450e7726844ab/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/5e41d9cb40eb05012b83bbe5769450e7726844ab/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/78cdd7ee9f89916c7fcf0b0e53ee68a546d45105/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/78cdd7ee9f89916c7fcf0b0e53ee68a546d45105/gdut-course.apk"
   ],
-  "versionCode": 110,
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/5e41d9cb40eb05012b83bbe5769450e7726844ab/gdut-course.apk",
-  "notes": "新增手势诊断浮层：进入「我的」连点版本号 6 次开启，滑动时屏幕左下角会实时显示事件计数、位移、行为判定和周次。用来定位「连续滑动不生效」到底是手势事件没收到、还是判定没通过",
-  "versionName": "11.9"
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/78cdd7ee9f89916c7fcf0b0e53ee68a546d45105/gdut-course.apk"
 }
