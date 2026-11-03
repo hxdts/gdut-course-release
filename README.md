@@ -2,7 +2,7 @@
 
 广东工业大学教务系统的安卓客户端。**直接调用学校接口取数据**，不是网页套壳。
 
-> 作者：hxdts ｜ 包名：`com.gdut.course` ｜ 版本：**4.7** ｜ 支持 Android 6.0+
+> 作者：hxdts ｜ 包名：`com.gdut.course` ｜ 版本：**4.8** ｜ 支持 Android 6.0+
 
 ---
 
@@ -102,8 +102,8 @@ App 不保存密码，所有请求都是你手机直接和学校服务器通信�
 
 ```json
 {
-  "versionCode": 38,
-  "versionName": "4.7",
+  "versionCode": 39,
+  "versionName": "4.8",
   "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
   "urlMirror": [
     "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
@@ -144,3 +144,4 @@ App 不保存密码，所有请求都是你手机直接和学校服务器通信�
 个人学习作品，与广东工业大学官方无任何隶属关系。数据仅供参考，与学校系统显示不一致时以学校系统为准。
 
 学校系统改版可能导致功能暂时失效，届时请等待更新。
+
