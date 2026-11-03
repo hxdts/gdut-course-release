@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/06c7825da99802e9fb01c71d339e020536705bc5/gdut-course.apk",
-  "notes": "1. 删除课表右上角的灰色缓存提示文字 2. 启动不再闪登录界面：登录页默认隐藏，先显示一层蓝色底色，等确认已登录后直接进主界面；未登录才显示登录页",
+  "notes": "1. 刷新成功后不再弹底部提示（原来每次都弹「第 N 周 · N 节课」）。只有登录过期、刷新失败、无法联网才提示 2. 整学期后台预缓存完成也不再弹提示",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/06c7825da99802e9fb01c71d339e020536705bc5/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/06c7825da99802e9fb01c71d339e020536705bc5/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/057181cd5eca0fce4cc1122029778740135af355/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/057181cd5eca0fce4cc1122029778740135af355/gdut-course.apk"
   ],
-  "versionCode": 129,
-  "versionName": "13.8"
+  "versionName": "13.9",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/057181cd5eca0fce4cc1122029778740135af355/gdut-course.apk",
+  "versionCode": 130
 }
