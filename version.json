@@ -1,10 +1,10 @@
 {
+  "notes": "白屏真正的根因找到了：进入主界面的函数里，有一行「把主界面显示出来」在之前几次改动中被我误删了。结果登录页被隐藏、主界面又没显示，屏幕就是一片白。现在补回来了",
+  "versionCode": 134,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/831f29cfeb83dbb0b698bafd57c282dd4d0fbed3/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/831f29cfeb83dbb0b698bafd57c282dd4d0fbed3/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/a795fab443e7174dee08990a98af73f2c37b6aa5/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/a795fab443e7174dee08990a98af73f2c37b6aa5/gdut-course.apk"
   ],
-  "notes": "修复白屏的两个根因：1. 原生侧原先是先加载页面、后注入 window.Native，页面脚本偶尔抢在前面跑，就会把「没有原生接口」当成浏览器预览，显示空界面——现在改成先注入再加载 2. JS 侧的「有没有原生接口」原来是加载时判断一次就固定，现在每次调用都重新判断，启动时也会等桥出现再启动 3. 界面 WebView 禁用缓存，避免读到旧 index.html 去引用已删除的 js",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/831f29cfeb83dbb0b698bafd57c282dd4d0fbed3/gdut-course.apk",
-  "versionName": "14.2",
-  "versionCode": 133
+  "versionName": "14.3",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/a795fab443e7174dee08990a98af73f2c37b6aa5/gdut-course.apk"
 }
