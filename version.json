@@ -1,10 +1,10 @@
 {
-  "notes": "1. 断网时也能跳到本周：启动时用本地缓存的学期起始日期自己算当前周，不再依赖联网 2. 学期代码也本地缓存，断网可读取本地课表缓存",
+  "versionCode": 35,
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v34.apk",
+  "versionName": "4.4",
+  "notes": "1. 颜色色块区加了「⇄ 左右滑动」提示 2. 每行右侧渐隐，暗示还有更多颜色 3. 显示细滚动条 4. 断网也能定位本周",
   "urlMirror": [
-    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v33.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v33.apk"
-  ],
-  "versionName": "4.3",
-  "versionCode": 34,
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v33.apk"
+    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v34.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v34.apk"
+  ]
 }
