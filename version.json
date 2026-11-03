@@ -1,10 +1,11 @@
 {
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v37.apk",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
+  "versionCode": 38,
+  "notes": "1. 透明度滑块改为自定义控件，点击轨道不再误触 2. 整学期课表 WiFi 下预缓存 3. 默认白字黑边、描边引擎级渲染",
   "urlMirror": [
-    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v37.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v37.apk"
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
+    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course.apk",
+    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course.apk"
   ],
-  "notes": "1. 透明度滑块重写为自定义控件：必须按住圆点拖动才生效，点击轨道完全无响应，彻底解决误触 2. 圆点加大到 30px 并扩大点击热区",
-  "versionName": "4.7",
-  "versionCode": 38
+  "versionName": "4.7"
 }
