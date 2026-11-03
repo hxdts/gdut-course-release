@@ -1,10 +1,10 @@
 {
-  "notes": "1. 整学期课表预缓存改为仅在 WiFi 下进行，不消耗移动数据 2. 移动数据下仍可正常刷新和切换周次（只是不预缓存其他周）",
+  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v37.apk",
   "urlMirror": [
-    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v36.apk",
-    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v36.apk"
+    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v37.apk",
+    "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course-v37.apk"
   ],
-  "versionName": "4.6",
-  "url": "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course-v36.apk",
-  "versionCode": 37
+  "notes": "1. 透明度滑块重写为自定义控件：必须按住圆点拖动才生效，点击轨道完全无响应，彻底解决误触 2. 圆点加大到 30px 并扩大点击热区",
+  "versionName": "4.7",
+  "versionCode": 38
 }
