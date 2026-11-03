@@ -1,10 +1,10 @@
 {
-  "versionName": "10.1",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/4303552c31cbfc5a9678e932241303c5a5c363da/gdut-course.apk",
-  "notes": "修复两件事同一根因：滑动的位移上限用了缓存的屏宽，屏幕宽度一变上限就偏小，导致 1) 滑不到周末（被截断后看不到周日）2) 也够不到换页阈值。现在位移、边界全部实时读取屏宽；另外切周刷新时不再强制把位置弹回周初，你在看周六日就会保持",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/1b275a1e28abddb6cadf63b4db7a33a0c5d38ab7/gdut-course.apk",
+  "versionCode": 93,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/4303552c31cbfc5a9678e932241303c5a5c363da/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/4303552c31cbfc5a9678e932241303c5a5c363da/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/1b275a1e28abddb6cadf63b4db7a33a0c5d38ab7/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/1b275a1e28abddb6cadf63b4db7a33a0c5d38ab7/gdut-course.apk"
   ],
-  "versionCode": 92
+  "versionName": "10.2",
+  "notes": "修复松手判定会被提前跳过的问题（手机上 touchcancel 先到时，真正抬手那次被忽略，位置就卡在超出本周的地方，表现为既换不了页、周日也被挤出屏幕）。现在只要滑出本周范围就一定有结论：够快或够远就换页，否则回弹到边界（边界正好能看到周六日）；本周范围内则保持不动"
 }
