@@ -1,10 +1,10 @@
 {
-  "versionName": "8.0",
-  "notes": "1. 回弹改回 CSS transition 实现（跟手无延迟，动画由浏览器合成层执行，松手立刻弹）2. 换周阈值 18% 3. 课程透明度改成每 5% 一档，和字号一样",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/a3e21438534bf910c20442ef40326dd0406cdda7/gdut-course.apk",
-  "versionCode": 71,
+  "notes": "换周动画更流畅：切周时先用本地缓存立刻渲染目标周，不再等网络返回（原来要等 0.5~2 秒，动画早结束内容还没到，看着卡顿）。网络结果回来后再静默覆盖。动画曲线调为 420ms",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/37c09d30a7ba8e102113537c8df3af542b9a6e05/gdut-course.apk",
+  "versionCode": 72,
+  "versionName": "8.1",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/a3e21438534bf910c20442ef40326dd0406cdda7/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/a3e21438534bf910c20442ef40326dd0406cdda7/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/37c09d30a7ba8e102113537c8df3af542b9a6e05/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/37c09d30a7ba8e102113537c8df3af542b9a6e05/gdut-course.apk"
   ]
 }
