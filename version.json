@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/a3807a79a71cb60571f5e96a54f2c955fa263ad9/gdut-course.apk",
-  "notes": "1. 没课的周也能左右滑动切换了（空周照样渲染空白课表条带）2. 换页不再卡一下：改用 transitionend 在动画真正结束时才换数据，之前用定时器会和动画错开 3. 不够阈值时完整回弹到本周页的端点",
+  "notes": "快滑卡顿优化：1. 换页只重建 1 页（DOM 轮转复用另外两页），不再是 3 页 2. 拖动时不再每帧重写 transition 3. 条带独立合成层（will-change/contain），减少整页重绘 4. 快速连滑会打断上一次换页并从当前实际位置继续，不会跳",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/92927d23ba752e6fa8965ed9f766360f13a084aa/gdut-course.apk",
+  "versionCode": 89,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/a3807a79a71cb60571f5e96a54f2c955fa263ad9/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/a3807a79a71cb60571f5e96a54f2c955fa263ad9/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/92927d23ba752e6fa8965ed9f766360f13a084aa/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/92927d23ba752e6fa8965ed9f766360f13a084aa/gdut-course.apk"
   ],
-  "versionName": "9.7",
-  "versionCode": 88
+  "versionName": "9.8"
 }
