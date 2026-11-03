@@ -1,10 +1,10 @@
 {
-  "notes": "快滑卡顿优化：1. 换页只重建 1 页（DOM 轮转复用另外两页），不再是 3 页 2. 拖动时不再每帧重写 transition 3. 条带独立合成层（will-change/contain），减少整页重绘 4. 快速连滑会打断上一次换页并从当前实际位置继续，不会跳",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/92927d23ba752e6fa8965ed9f766360f13a084aa/gdut-course.apk",
-  "versionCode": 89,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/92927d23ba752e6fa8965ed9f766360f13a084aa/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/92927d23ba752e6fa8965ed9f766360f13a084aa/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/3b65aa22d4118c6df70df5a67515139a8dbc7246/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/3b65aa22d4118c6df70df5a67515139a8dbc7246/gdut-course.apk"
   ],
-  "versionName": "9.8"
+  "versionName": "9.9",
+  "versionCode": 90,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/3b65aa22d4118c6df70df5a67515139a8dbc7246/gdut-course.apk",
+  "notes": "以最新动作为准：手指越过本周边界后，只要甩得够快（约 500px/s）就直接换页，不再要求滑够距离；位置阈值也从 16% 降到 12%。慢拖仍然需要滑够距离"
 }
