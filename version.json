@@ -1,10 +1,10 @@
 {
-  "versionName": "15.0",
-  "notes": "启动图真正铺满屏幕了：之前用两层叠加，上层那张设了 center 不缩放，所以显示成屏幕中间的一张小图。现在改成预先生成好的一张整屏合成图（1080x2400，模糊背景+完整原图），用 fill 铺满",
-  "versionCode": 141,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/9cbe61a554511a5f3c660d76d7229bbaa46b5307/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/9cbe61a554511a5f3c660d76d7229bbaa46b5307/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/f0bef9886e805d9a4fc6f8f89ac04a706c88e31a/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/f0bef9886e805d9a4fc6f8f89ac04a706c88e31a/gdut-course.apk"
   ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/9cbe61a554511a5f3c660d76d7229bbaa46b5307/gdut-course.apk"
+  "versionCode": 142,
+  "versionName": "15.1",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/f0bef9886e805d9a4fc6f8f89ac04a706c88e31a/gdut-course.apk",
+  "notes": "启动图改成微信/QQ 那种做法：原生加一层全屏图片盖在界面上，页面画完之后淡出 220ms，所以不会再闪；万一页面卡住，5 秒后也会自动撤掉，不会一直停在启动图。图片用 FIT_XY 强制拉满，不会再显示成中间小图"
 }
