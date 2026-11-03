@@ -1,10 +1,10 @@
 {
-  "versionCode": 99,
-  "versionName": "10.8",
+  "versionCode": 106,
+  "notes": "课表横滑手势重写：1. 改用 Pointer Events + 指针捕获，连续滑动不再丢事件 2. 速度采样顺序修正（之前算反了），甩动判定加「总位移」兜底 3. 松手一定吸附到端点，并在动画后再确认一次位置 4. 多层 pointerup 兜底（sc/document/window），touchcancel 也不会卡住 5. app.js/style.css 自动带版本号，避免 WebView 用旧缓存",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/30473dd142a005fe8bafc373cee83f8842494f58/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/30473dd142a005fe8bafc373cee83f8842494f58/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/e861218bb9b97eeedaf91a8182cc7211bb1aec03/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/e861218bb9b97eeedaf91a8182cc7211bb1aec03/gdut-course.apk"
   ],
-  "notes": "1. 修复左右键/周次失灵：切周函数里漏了更新当前周次，导致点了只换数据不换周 2. 快速一甩（500px/s 以上）在任何位置都直接换页，不再需要先滑到边界——以最后一次动作为准 3. 慢滑阈值从 10% 降到 6% 4. 课程方块右侧留出约 12px 缝隙，一屏仍是 5 天",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/30473dd142a005fe8bafc373cee83f8842494f58/gdut-course.apk"
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/e861218bb9b97eeedaf91a8182cc7211bb1aec03/gdut-course.apk",
+  "versionName": "11.5"
 }
