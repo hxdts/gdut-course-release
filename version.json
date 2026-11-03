@@ -1,10 +1,10 @@
 {
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/22c0f79c38cd11592032c5e5b01e0ad801a04a47/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/22c0f79c38cd11592032c5e5b01e0ad801a04a47/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/a9a81e67eb79f01d111e571a4a6839173a17638e/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/a9a81e67eb79f01d111e571a4a6839173a17638e/gdut-course.apk"
   ],
-  "versionCode": 57,
-  "notes": "滑动切周的判定阈值从屏幕一半（50%）降到 30%（最少 56px），稍微一滑就能换周，没过阈值仍然回弹",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/22c0f79c38cd11592032c5e5b01e0ad801a04a47/gdut-course.apk",
-  "versionName": "6.6"
+  "versionName": "6.7",
+  "notes": "1. 课表改为三页轨道：上一周 / 本周 / 下一周并排，滑动时能看到相邻周的真实课表（无缓存时显示空网格）2. 跟手平移，滑过 30% 松手切换周次，没过回弹 3. 切换时轨道先滑到目标页再加载数据，视觉上连续不空白",
+  "versionCode": 58,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/a9a81e67eb79f01d111e571a4a6839173a17638e/gdut-course.apk"
 }
