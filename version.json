@@ -1,10 +1,10 @@
 {
-  "versionName": "14.4",
-  "notes": "启动不再闪登录界面：登录页改成用透明度过渡（默认透明、透出浅灰底色），确认已登录就直接进主界面；未登录才淡入显示。这个做法不会像之前的遮罩那样卡死在背景上——即使判断失败，3 秒后也会把登录页亮出来",
-  "versionCode": 135,
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/65162cfa240730cc3cd1e9febe1602d714482f89/gdut-course.apk",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/bdd824f16d1e899e85f4957d1f2085819e81c678/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/bdd824f16d1e899e85f4957d1f2085819e81c678/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/65162cfa240730cc3cd1e9febe1602d714482f89/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/65162cfa240730cc3cd1e9febe1602d714482f89/gdut-course.apk"
   ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/bdd824f16d1e899e85f4957d1f2085819e81c678/gdut-course.apk"
+  "notes": "打开即课表：不再先等原生返回登录态。只要本地存过账号密码，就直接进入主界面用缓存画课表，登录态在后台确认（失效就静默重登）。原来那 0.2 秒的空白没有了",
+  "versionName": "14.5",
+  "versionCode": 136
 }
