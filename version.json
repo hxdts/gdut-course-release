@@ -1,10 +1,10 @@
 {
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/6a9d4637689ae9399a980884c7228b194445dfc9/gdut-course.apk",
+  "versionCode": 52,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/fd2175d1b04ee1a24f82c5693d5b2aa990a4fc39/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/fd2175d1b04ee1a24f82c5693d5b2aa990a4fc39/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/6a9d4637689ae9399a980884c7228b194445dfc9/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/6a9d4637689ae9399a980884c7228b194445dfc9/gdut-course.apk"
   ],
-  "versionCode": 51,
-  "notes": "彻底修复课表文字字号滑块脱轨：轨道、蓝条、圆点改用同一套坐标（都从 11px 起、宽度减 22px），蓝条右端与圆点中心在任意位置都严格重合；同时去掉宽度动画避免拖动时视觉滞后",
-  "versionName": "6.0",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/fd2175d1b04ee1a24f82c5693d5b2aa990a4fc39/gdut-course.apk"
+  "notes": "修复课表文字字号滑块的上下错位：轨道和蓝条之前没有垂直定位（缺 top），和圆点不在同一条中线上。现在三者统一 top:50% + translateY(-50%)，实测中线全部对齐到 15px",
+  "versionName": "6.1"
 }
