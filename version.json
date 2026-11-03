@@ -1,11 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
   "versionCode": 38,
-  "notes": "1. 透明度滑块改为自定义控件，点击轨道不再误触 2. 整学期课表 WiFi 下预缓存 3. 默认白字黑边、描边引擎级渲染",
+  "versionName": "4.7",
+  "notes": "1. 透明度滑块改为自定义控件，点击轨道不再误触 2. 整学期课表 WiFi 下预缓存 3. 默认白字黑边、引擎级描边 4. 安装包改为固定文件名",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
   "urlMirror": [
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
-    "https://cdn.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course.apk",
-    "https://gcore.jsdelivr.net/gh/hxdts/gdut-course-release@main/gdut-course.apk"
-  ],
-  "versionName": "4.7"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/main/gdut-course.apk"
+  ]
 }
