@@ -1,10 +1,10 @@
 {
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/2096b40fc2692e185ecac47ecc6409b8d08fcf97/gdut-course.apk",
-  "notes": "1. 刷新按钮回到顶栏右上角（去掉右下角悬浮圆钮）2. 周次条右侧不再显示「更新于 …」灰色文字 3. 左上角改为显示完整更新时间，格式 2026.11.03 13:30 更新",
-  "versionCode": 54,
-  "versionName": "6.3",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/2096b40fc2692e185ecac47ecc6409b8d08fcf97/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/2096b40fc2692e185ecac47ecc6409b8d08fcf97/gdut-course.apk"
-  ]
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/75a10a2648cdc76370d47d3bc0681483b171a9d2/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/75a10a2648cdc76370d47d3bc0681483b171a9d2/gdut-course.apk"
+  ],
+  "versionName": "6.4",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/75a10a2648cdc76370d47d3bc0681483b171a9d2/gdut-course.apk",
+  "notes": "1. 刷新图标改为不闭合的圆弧+箭头 2. 课表默认只显示周一到周五（5 列铺满），左右滑动可切到周六周日 3. 滑动跟手（实时跟随手指），松手时超过约 1/4 屏宽才翻页，否则回弹 4. 底部有页码圆点，可直接点击切换",
+  "versionCode": 55
 }
