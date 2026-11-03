@@ -1,10 +1,10 @@
 {
-  "versionName": "6.2",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/2096b40fc2692e185ecac47ecc6409b8d08fcf97/gdut-course.apk",
+  "notes": "1. 刷新按钮回到顶栏右上角（去掉右下角悬浮圆钮）2. 周次条右侧不再显示「更新于 …」灰色文字 3. 左上角改为显示完整更新时间，格式 2026.11.03 13:30 更新",
+  "versionCode": 54,
+  "versionName": "6.3",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/29f8d157f2b432d25d321c942767a9d9e9f45786/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/29f8d157f2b432d25d321c942767a9d9e9f45786/gdut-course.apk"
-  ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/29f8d157f2b432d25d321c942767a9d9e9f45786/gdut-course.apk",
-  "versionCode": 53,
-  "notes": "1. 修复「周次字号」误控制其他列表文字（设置壁纸/移除壁纸等字号被带着变）2. 课表 7 列改为自适应整屏宽度，左右滑动即可切换上/下一周（左滑下一周、右滑上一周）3. 去掉切周时「正在刷新」的静默拦截，不会再点了没反应"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/2096b40fc2692e185ecac47ecc6409b8d08fcf97/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/2096b40fc2692e185ecac47ecc6409b8d08fcf97/gdut-course.apk"
+  ]
 }
