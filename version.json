@@ -1,10 +1,10 @@
 {
-  "notes": "课表改成连续时间线：上一周 | 本周 | 下一周 三周并排，横向滚动可以一路滑过去。滑过本周边界（超过 55%/45%）自动切到相邻周，所以既能从这周一到五滑到这周三到日，也能继续滑到下周一到五",
+  "notes": "1. 滑动跨周加了回弹动画：滑进相邻周但没超过阈值时，会平滑弹回本周 2. 换周阈值从 55%/45% 降到 22%，轻轻一滑就换",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/0f16a6165647d45ab3deb7b3ab12e877067a662b/gdut-course.apk",
+  "versionCode": 69,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/85b6dd0d3c4aa224e14463f8eb41f3fa85c38f6d/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/85b6dd0d3c4aa224e14463f8eb41f3fa85c38f6d/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/0f16a6165647d45ab3deb7b3ab12e877067a662b/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/0f16a6165647d45ab3deb7b3ab12e877067a662b/gdut-course.apk"
   ],
-  "versionName": "7.7",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/85b6dd0d3c4aa224e14463f8eb41f3fa85c38f6d/gdut-course.apk",
-  "versionCode": 68
+  "versionName": "7.8"
 }
