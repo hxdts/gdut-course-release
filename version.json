@@ -1,10 +1,10 @@
 {
-  "versionName": "12.7",
-  "notes": "刷新时会话过期不再打扰：只要存过账号密码，就自动用记住的密码静默重登，成功后自动重试刷新，全程不弹登录框。只有确实没存密码时才需要手动登录",
+  "versionCode": 119,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/1c304cca13e533df6b66bf4eff994a6d8ddeb912/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/1c304cca13e533df6b66bf4eff994a6d8ddeb912/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/ef6b4cebcb6fdc144436ea7fc0d09cd1c67d44bf/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/ef6b4cebcb6fdc144436ea7fc0d09cd1c67d44bf/gdut-course.apk"
   ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/1c304cca13e533df6b66bf4eff994a6d8ddeb912/gdut-course.apk",
-  "versionCode": 118
+  "notes": "退出登录不再丢失设置：原来退出时 Java 侧会调 WebStorage.deleteAllData()，把 localStorage 一起清空（主题、壁纸、课程配色、记住的密码全没了）。现在只清会话 cookie 和页面缓存；记住的密码也保留，只是本次不自动登录",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/ef6b4cebcb6fdc144436ea7fc0d09cd1c67d44bf/gdut-course.apk",
+  "versionName": "12.8"
 }
