@@ -1,10 +1,10 @@
 {
-  "versionName": "14.8",
-  "notes": "新增启动图：用系统窗口背景实现，点开图标就显示画面，不会有白屏。图片左右完整居中，上下空白用同一张图的模糊放大版填充",
+  "notes": "启动图改为整屏：状态栏和导航栏透明、图片铺到系统栏后面，刘海屏也铺满。同时把 Activity 根布局和 WebView 的背景改透明，启动图不会被白底盖住",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/dd888d920ef0b7594562a947023df49da9030a06/gdut-course.apk",
+  "versionName": "14.9",
+  "versionCode": 140,
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/1c3475e73d815d6ce51fe7b07719941e2cde0f63/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/1c3475e73d815d6ce51fe7b07719941e2cde0f63/gdut-course.apk"
-  ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/1c3475e73d815d6ce51fe7b07719941e2cde0f63/gdut-course.apk",
-  "versionCode": 139
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/dd888d920ef0b7594562a947023df49da9030a06/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/dd888d920ef0b7594562a947023df49da9030a06/gdut-course.apk"
+  ]
 }
