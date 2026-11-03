@@ -1,10 +1,10 @@
 {
-  "notes": "换周改为纯本地操作：整学期课表已经缓存在手机上，切周直接读缓存渲染，不再发网络请求，所以换周是瞬间完成的，动画不会被网络卡住。只有某一周没有缓存时才会去请求",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/88de2a716254687a99a287e92003d13852e5d91f/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/88de2a716254687a99a287e92003d13852e5d91f/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/375afc188134b544e9fa3e861afd162fe542f7ba/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/375afc188134b544e9fa3e861afd162fe542f7ba/gdut-course.apk"
   ],
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/88de2a716254687a99a287e92003d13852e5d91f/gdut-course.apk",
-  "versionName": "8.2",
-  "versionCode": 73
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/375afc188134b544e9fa3e861afd162fe542f7ba/gdut-course.apk",
+  "versionCode": 74,
+  "versionName": "8.3",
+  "notes": "换周动画时长从 420ms 放慢到 580ms，缓出曲线保持"
 }
