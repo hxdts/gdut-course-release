@@ -1,10 +1,10 @@
 {
-  "versionName": "12.4",
-  "notes": "1. 修复连续滑动只能两次：上一次换页动画被打断时位置停在半路，第三次的拖动基准就错了；现在新滑动开始前如果位置不在本周范围内会先归中 2. 过渡更顺：换页动画结束后改到下一帧再重渲染，避免同帧重排造成一顿",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/c48ec5f54ea7a3d1a9c6748a8c1f282990a09a4a/gdut-course.apk",
+  "notes": "修复连续滑动只算一次：上一版为了流畅把换周渲染延到下一帧，但用户紧接着再滑时那次换周就被新滑动覆盖掉了。现在改为「挂起」——换周待渲染时先记下来，下一次滑动开始前先把它兑现，两次滑动都能生效",
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/c48ec5f54ea7a3d1a9c6748a8c1f282990a09a4a/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/c48ec5f54ea7a3d1a9c6748a8c1f282990a09a4a/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/cfb0d047b4d36caccceac8468d008e9712dd18a9/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/cfb0d047b4d36caccceac8468d008e9712dd18a9/gdut-course.apk"
   ],
-  "versionCode": 115
+  "versionCode": 116,
+  "versionName": "12.5",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/cfb0d047b4d36caccceac8468d008e9712dd18a9/gdut-course.apk"
 }
