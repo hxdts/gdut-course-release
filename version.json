@@ -1,10 +1,10 @@
 {
   "urlMirror": [
-    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/ddab07340fc727d20874fe17b377ae00e37131fe/gdut-course.apk",
-    "https://raw.githubusercontent.com/hxdts/gdut-course-release/ddab07340fc727d20874fe17b377ae00e37131fe/gdut-course.apk"
+    "https://gh-proxy.com/https://raw.githubusercontent.com/hxdts/gdut-course-release/079f2699a7a9efd3e9d06c812462f03cdd1dbd20/gdut-course.apk",
+    "https://raw.githubusercontent.com/hxdts/gdut-course-release/079f2699a7a9efd3e9d06c812462f03cdd1dbd20/gdut-course.apk"
   ],
-  "notes": "启动图立绘改成左右占满屏幕（原来只占 88%，两侧各留 6% 模糊带，看起来像没贴边）。现在立绘宽度等于屏宽，上下是模糊背景，背景也不再压那么暗",
-  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/ddab07340fc727d20874fe17b377ae00e37131fe/gdut-course.apk",
-  "versionName": "15.4",
-  "versionCode": 145
+  "versionName": "15.5",
+  "url": "https://ghproxy.net/https://raw.githubusercontent.com/hxdts/gdut-course-release/079f2699a7a9efd3e9d06c812462f03cdd1dbd20/gdut-course.apk",
+  "notes": "1. 课表字号新增「教室」「教师」两档，共 7 类独立可调；教室默认和课程名一样大 2. 壁纸默认就用启动图那张，设置里「移除壁纸」上面加了「默认壁纸」按钮，随时可以恢复",
+  "versionCode": 146
 }
